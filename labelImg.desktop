@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=LabelImg
+Exec=/usr/local/bin/labelImg  # Update the path if LabelImg is installed in a different location
+Icon=path/to/icon.png  # Optional: Add an icon
+Terminal=false
+Type=Application
+

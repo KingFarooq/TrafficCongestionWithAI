@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Maps Hybrid View with Enhanced Roads</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao&libraries=places&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: { lat: 34.052235, lng: -118.243683 }, // Coordinates for Los Angeles, CA
+                disableDefaultUI: true, // This disables the default UI controls
+                mapTypeId: 'hybrid' // This sets the map type to hybrid, showing satellite imagery with labels
+            });
+
+            // Add a StyledMapType to highlight the roads
+            const styledMapType = new google.maps.StyledMapType(
+                [
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [
+                            { visibility: 'on' },
+                            { color: '#ffffff' } // Change road color to white to enhance visibility
+                        ]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels',
+                        stylers: [
+                            { visibility: 'on' },
+                            { hue: '#ff0000' }, // Change road labels color to red to enhance visibility
+                        ]
+                    },
+                    {
+                        featureType: 'landscape',
+                        elementType: 'geometry',
+                        stylers: [
+                            { visibility: 'simplified' },
+                            { color: '#f5f5f5' } // Change landscape color to a light gray to reduce tree visibility
+                        ]
+                    }
+                ],
+                { name: 'Styled Map' }
+            );
+
+            // Associate the styled map with the MapTypeId and set it to display.
+            map.mapTypes.set('styled_map', styledMapType);
+            map.setMapTypeId('styled_map');
+        }
+
+        // Call the initMap function when the window loads
+        google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
+    <style>
+        /* Set the size of the map */
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Style the body to fit the map */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Map container -->
+    <div id="map"></div>
+</body>
+</html>
