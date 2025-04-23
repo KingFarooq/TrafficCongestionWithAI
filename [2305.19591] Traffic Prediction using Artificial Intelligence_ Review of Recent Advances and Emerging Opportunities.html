@@ -1,0 +1,1171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0032)https://arxiv.org/abs/2305.19591 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  <title>[2305.19591] Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="https://arxiv.org/static/browse/0.3.4/images/icons/site.webmanifest">
+  <link rel="mask-icon" href="https://arxiv.org/static/browse/0.3.4/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" media="screen" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/arXiv.css">
+  <link rel="stylesheet" type="text/css" media="print" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/arXiv-print.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/browse_search.css">
+  <script language="javascript" src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/accordion.js.download"></script>
+  <link rel="canonical" href="https://arxiv.org/abs/2305.19591"><meta property="og:type" content="website">
+<meta property="og:site_name" content="arXiv.org">
+<meta property="og:title" content="Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities">
+<meta property="og:url" content="https://arxiv.org/abs/2305.19591v2">
+<meta property="og:image" content="/static/browse/0.3.4/images/arxiv-logo-fb.png">
+<meta property="og:image:secure_url" content="/static/browse/0.3.4/images/arxiv-logo-fb.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="700">
+<meta property="og:image:alt" content="arXiv logo">
+<meta property="og:description" content="Traffic prediction plays a crucial role in alleviating traffic congestion which represents a critical problem globally, resulting in negative consequences such as lost hours of additional travel time and increased fuel consumption. Integrating emerging technologies into transportation systems provides opportunities for improving traffic prediction significantly and brings about new research problems. In order to lay the foundation for understanding the open research challenges in traffic prediction, this survey aims to provide a comprehensive overview of traffic prediction methodologies. Specifically, we focus on the recent advances and emerging research opportunities in Artificial Intelligence (AI)-based traffic prediction methods, due to their recent success and potential in traffic prediction, with an emphasis on multivariate traffic time series modeling. We first provide a list and explanation of the various data types and resources used in the literature. Next, the essential data preprocessing methods within the traffic prediction context are categorized, and the prediction methods and applications are subsequently summarized. Lastly, we present primary research challenges in traffic prediction and discuss some directions for future research.">
+<meta name="twitter:site" content="@arxiv">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Traffic Prediction using Artificial Intelligence: Review of Recent...">
+<meta name="twitter:description" content="Traffic prediction plays a crucial role in alleviating traffic congestion which represents a critical problem globally, resulting in negative consequences such as lost hours of additional travel...">
+<meta name="twitter:image" content="https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png">
+<meta name="twitter:image:alt" content="arXiv logo">
+  <link rel="stylesheet" media="screen" type="text/css" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/tooltip.css"><link rel="stylesheet" media="screen" type="text/css" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/bibex.css">  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/mathjaxToggle.min.js.download" type="text/javascript"></script>  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/jquery-latest.min.js.download" type="text/javascript"></script>
+  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/js.cookie.min.js.download" type="text/javascript"></script>
+  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/purify.min.js.download"></script>
+  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/toggle-labs.js.download" type="text/javascript"></script>
+  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/cite.js.download" type="text/javascript"></script><meta name="citation_title" content="Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities"><meta name="citation_author" content="Shaygan, Maryam"><meta name="citation_author" content="Meese, Collin"><meta name="citation_author" content="Li, Wanxin"><meta name="citation_author" content="Zhao, Xiaolong"><meta name="citation_author" content="Nejad, Mark"><meta name="citation_doi" content="10.1016/j.trc.2022.103921"><meta name="citation_date" content="2023/05/31"><meta name="citation_online_date" content="2023/06/04"><meta name="citation_pdf_url" content="http://arxiv.org/pdf/2305.19591"><meta name="citation_arxiv_id" content="2305.19591"><meta name="citation_abstract" content="Traffic prediction plays a crucial role in alleviating traffic congestion which represents a critical problem globally, resulting in negative consequences such as lost hours of additional travel time and increased fuel consumption. Integrating emerging technologies into transportation systems provides opportunities for improving traffic prediction significantly and brings about new research problems. In order to lay the foundation for understanding the open research challenges in traffic prediction, this survey aims to provide a comprehensive overview of traffic prediction methodologies. Specifically, we focus on the recent advances and emerging research opportunities in Artificial Intelligence (AI)-based traffic prediction methods, due to their recent success and potential in traffic prediction, with an emphasis on multivariate traffic time series modeling. We first provide a list and explanation of the various data types and resources used in the literature. Next, the essential data preprocessing methods within the traffic prediction context are categorized, and the prediction methods and applications are subsequently summarized. Lastly, we present primary research challenges in traffic prediction and discuss some directions for future research.">
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({
+  messageStyle: 'none',
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [['$','$']],
+    processEscapes: true,
+    ignoreClass: '.*',
+    processClass: 'mathjax.*',
+  },
+  TeX: {
+    extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js'],
+    noErrors: {
+      inlineDelimiters: ['$','$'],
+      multiLine: false,
+      style: {
+        'font-size': 'normal',
+        'border': ''
+      }
+    }
+  }
+});</script><script type="text/javascript" src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/MathJax.js.download"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style>html[dji-sru-rewordify-active] span.dji-sru-rewordify-chunk{background-color:rgba(200,0,0,0)}html[dji-sru-rewordify-active] span.dji-sru-rewordify-chunk.dji-sru-rewordify-match:not([dji-sru-rewordify-ignore]),html[dji-sru-rewordify-active] span.dji-sru-rewordify-chunk.dji-sru-rewordify-match[dji-sru-rewordify-replace]{cursor:help;font-style:italic}span.dji-sru-rewordify-chunk.dji-sru-rewordify-translated{cursor:help}.dji-sru-active a.dji-sru-google-translate-logo{bottom:0;position:fixed;right:40px;z-index:9999999910}.dji-sru-outline-active a.dji-sru-google-translate-logo{bottom:0;position:fixed;right:445px;z-index:9999999910}a.dji-sru-google-translate-logo img.dji-sru-google-translate-logo-img{background:url(chrome-extension://mloajfnmjckfjbeeofcdaecbelnblden/resources/images/translatedByGoogle.png) 0 0/130px 48px no-repeat;display:inline-table;height:0;outline:none;padding-bottom:60px;padding-right:145px;width:0}div[dji-sru-rewordify-popup]{background-color:#fff;border:3px solid #4f6175;border-radius:5px;box-sizing:border-box;-webkit-box-sizing:border-box;color:#000!important;display:none;left:30px;min-height:50px;min-width:300px;opacity:0;overflow:visible;padding:0;pointer-events:none;position:fixed;top:30px;z-index:2147483647}html[dji-sru-fullscreen-popup] div[dji-sru-rewordify-popup]{bottom:10%!important;left:10%!important;right:10%!important;top:10%!important}div[dji-sru-rewordify-body]{bottom:10px;font-family:Arial,sans,sans-serif;font-size:14px;left:20px;outline:none;overflow-x:hidden;overflow-y:auto;position:absolute;right:15px;top:30px;white-space:pre-line}div[dji-sru-rewordify-body]:focus{outline:none}div[dji-sru-rewordify-popup] div.dji-sru-close-btn{background-image:url(chrome-extension://mloajfnmjckfjbeeofcdaecbelnblden/resources/images/close.svg);cursor:pointer!important;display:none;height:25px;position:absolute;right:-14px;top:-14px;width:25px;z-index:2147483647}div[dji-sru-rewordify-popup] div.dji-sru-close-btn:before{content:url(chrome-extension://mloajfnmjckfjbeeofcdaecbelnblden/resources/images/close-hover.svg);height:0;visibility:hidden;width:0}div[dji-sru-rewordify-popup] div.dji-sru-close-btn:hover{background-image:url(chrome-extension://mloajfnmjckfjbeeofcdaecbelnblden/resources/images/close-hover.svg)}@media not print{html[dji-sru-rewordify-active] div[dji-sru-rewordify-popup].dji-working{display:block;left:-10000px;top:-10000px}html[dji-sru-rewordify-active] div[dji-sru-rewordify-popup].dji-visible{display:block;opacity:1;pointer-events:auto}html[dji-sru-rewordify-active] div[dji-sru-rewordify-popup].dji-visible div.dji-sru-close-btn{display:block}}html[dji-sru-rewordify-active] .kix-selection-overlay{opacity:0!important}</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+
+<body class="with-cu-identity" style=""><div id="MathJax_Message" style="display: none;"></div>
+  
+  <div class="flex-wrap-footer">
+    <header>
+      <a href="https://arxiv.org/abs/2305.19591#content" class="is-sr-only">Skip to main content</a>
+      <!-- start desktop header -->
+      <div class="columns is-vcentered is-hidden-mobile" id="cu-identity">
+        <div class="column" id="cu-logo">
+          <a href="https://www.cornell.edu/"><img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/cornell-reduced-white-SMAL.svg" alt="Cornell University"></a>
+        </div><div class="column" id="support-ack">
+          <span id="support-ack-url">We gratefully acknowledge support from the Simons Foundation, <a href="https://info.arxiv.org/about/ourmembers.html">member institutions</a>, and all contributors.</span>
+          <a href="https://info.arxiv.org/about/donate.html" class="btn-header-donate">Donate</a>
+        </div>
+      </div>
+
+      <div id="header" class="is-hidden-mobile">
+<a aria-hidden="true" href="https://arxiv.org/abs/%7Burl_path(&#39;ignore_me&#39;)%7D"></a>
+  <div class="header-breadcrumbs is-hidden-mobile">
+    <a href="https://arxiv.org/"><img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/arxiv-logo-one-color-white.svg" alt="arxiv logo" style="height:40px;"></a> <span>&gt;</span> <a href="https://arxiv.org/list/cs/recent">cs</a> <span>&gt;</span> arXiv:2305.19591
+  </div>
+          <div class="search-block level-right">
+    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms">
+          <p class="help"><a href="https://info.arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+        </div>
+        <div class="control">
+          <div class="select is-small">
+            <select name="searchtype" aria-label="Field to search">
+              <option value="all" selected="selected">All fields</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="abstract">Abstract</option>
+              <option value="comments">Comments</option>
+              <option value="journal_ref">Journal reference</option>
+              <option value="acm_class">ACM classification</option>
+              <option value="msc_class">MSC classification</option>
+              <option value="report_num">Report number</option>
+              <option value="paper_id">arXiv identifier</option>
+              <option value="doi">DOI</option>
+              <option value="orcid">ORCID</option>
+              <option value="author_id">arXiv author ID</option>
+              <option value="help">Help pages</option>
+              <option value="full_text">Full text</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="source" value="header">
+        <button class="button is-small is-cul-darker">Search</button>
+      </div>
+    </form>
+  </div>
+     </div><!-- /end desktop header -->
+
+      <div class="mobile-header">
+        <div class="columns is-mobile">
+          <div class="column logo-arxiv"><a href="https://arxiv.org/"><img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/arxiv-logomark-small-white.svg" alt="arXiv logo" style="height:60px;"></a></div>
+          <div class="column logo-cornell"><a href="https://www.cornell.edu/">
+            <picture>
+              <source media="(min-width: 501px)" srcset="/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg  400w" sizes="400w">
+              <source srcset="/static/browse/0.3.4/images/icons/cu/cornell_seal_simple_black.svg 2x">
+              <img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/cornell-reduced-white-SMAL.svg" alt="Cornell University Logo">
+            </picture>
+          </a></div>
+          <div class="column nav" id="toggle-container" role="menubar">
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-white"><title>open search</title><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <form class="mobile-search-form" method="GET" action="https://arxiv.org/search">
+                <div class="field has-addons">
+                  <input class="input" type="text" name="query" placeholder="Search..." aria-label="Search term or terms">
+                  <input type="hidden" name="source" value="header">
+                  <input type="hidden" name="searchtype" value="all">
+                  <button class="button">GO</button>
+                </div>
+              </form>
+            </div>
+
+            <button class="toggle-control"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-white" role="menu"><title>open navigation menu</title><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button>
+            <div class="mobile-toggle-block toggle-target">
+              <nav class="mobile-menu" aria-labelledby="mobilemenulabel">
+                <h2 id="mobilemenulabel">quick links</h2>
+                <ul>
+                    <li><a href="https://arxiv.org/login">Login</a></li>
+                    <li><a href="https://info.arxiv.org/help">Help Pages</a></li>
+                    <li><a href="https://info.arxiv.org/about">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!-- /end mobile-header -->
+    </header>
+
+    <main>
+      <div id="content">
+<!--
+rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+        rdf:about="/abs/2305.19591"
+        dc:identifier="/abs/2305.19591"
+        dc:title="Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities"
+        trackback:ping="/trackback/2305.19591" />
+    </rdf:RDF>
+--><div id="abs-outer">
+
+  <div class="leftcolumn">
+    <div class="subheader">
+      <h1>Computer Science &gt; Machine Learning</h1>
+    </div>
+
+    <div class="header-breadcrumbs-mobile">
+      <strong>arXiv:2305.19591</strong> (cs)
+    </div>
+<link rel="stylesheet" type="text/css" href="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/abs.css">
+<div id="content-inner">
+  <div id="abs">
+    <div class="dateline">
+  [Submitted on 31 May 2023 (<a href="https://arxiv.org/abs/2305.19591v1">v1</a>), last revised 4 Jun 2023 (this version, v2)]</div>
+    <h1 class="title mathjax"><span class="descriptor">Title:</span>Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities</h1>
+    <div class="authors"><span class="descriptor">Authors:</span><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shaygan,+M">Maryam Shaygan</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Meese,+C">Collin Meese</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Li,+W">Wanxin Li</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhao,+X">Xiaolong Zhao</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nejad,+M">Mark Nejad</a></div>            <div id="download-button-info" hidden="">View a PDF of the paper titled Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities, by Maryam Shaygan and 4 other authors</div>
+    <a class="mobile-submission-download" href="https://arxiv.org/pdf/2305.19591">View PDF</a>
+
+
+
+    <blockquote class="abstract mathjax">
+            <span class="descriptor">Abstract:</span>Traffic prediction plays a crucial role in alleviating traffic congestion which represents a critical problem globally, resulting in negative consequences such as lost hours of additional travel time and increased fuel consumption. Integrating emerging technologies into transportation systems provides opportunities for improving traffic prediction significantly and brings about new research problems. In order to lay the foundation for understanding the open research challenges in traffic prediction, this survey aims to provide a comprehensive overview of traffic prediction methodologies. Specifically, we focus on the recent advances and emerging research opportunities in Artificial Intelligence (AI)-based traffic prediction methods, due to their recent success and potential in traffic prediction, with an emphasis on multivariate traffic time series modeling. We first provide a list and explanation of the various data types and resources used in the literature. Next, the essential data preprocessing methods within the traffic prediction context are categorized, and the prediction methods and applications are subsequently summarized. Lastly, we present primary research challenges in traffic prediction and discuss some directions for future research.
+    </blockquote>
+
+    <!--CONTEXT-->
+    <div class="metatable">
+      <table summary="Additional metadata">        <tbody><tr>
+          <td class="tablecell label">Comments:</td>
+          <td class="tablecell comments mathjax">Published in Transportation Research Part C: Emerging Technologies (TR_C), Volume 145, 2022</td>
+        </tr>
+<tr>
+          <td class="tablecell label">Subjects:</td>
+          <td class="tablecell subjects">
+            <span class="primary-subject">Machine Learning (cs.LG)</span>; Artificial Intelligence (cs.AI)</td>
+        </tr><tr>
+          <td class="tablecell label">Cite as:</td>
+          <td class="tablecell arxivid"><span class="arxivid"><a href="https://arxiv.org/abs/2305.19591">arXiv:2305.19591</a> [cs.LG]</span></td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxividv">(or <span class="arxivid">
+              <a href="https://arxiv.org/abs/2305.19591v2">arXiv:2305.19591v2</a> [cs.LG]</span> for this version)
+          </td>
+        </tr>
+        <tr>
+          <td class="tablecell label">&nbsp;</td>
+          <td class="tablecell arxivdoi">              <a href="https://doi.org/10.48550/arXiv.2305.19591" id="arxiv-doi-link">https://doi.org/10.48550/arXiv.2305.19591</a><div class="button-and-tooltip">
+              <button class="more-info" aria-describedby="more-info-desc-1">
+                <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z" class=""></path></svg>
+                <span class="visually-hidden">Focus to learn more</span>
+              </button>
+              <!-- tooltip description -->
+              <div role="tooltip" id="more-info-desc-1">
+                <span class="left-corner"></span>                  arXiv-issued DOI via DataCite</div>
+            </div>
+          </td>
+        </tr>        <tr>
+          <td class="tablecell label">
+            <abbr title="Digital Object Identifier">Related DOI</abbr>:
+          </td>
+          <td class="tablecell doi"><a href="https://doi.org/10.1016/j.trc.2022.103921" data-doi="10.1016/j.trc.2022.103921" class="link-https link-external" rel="external noopener nofollow">https://doi.org/10.1016/j.trc.2022.103921</a>
+
+            <!-- accessible tooltip example -->
+            <div class="button-and-tooltip">
+              <button class="more-info" aria-describedby="more-info-desc-1">
+                <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z" class=""></path></svg>
+                <span class="visually-hidden">Focus to learn more</span>
+              </button>
+              <!-- tooltip description -->
+              <div role="tooltip" id="more-info-desc-1">
+                <span class="left-corner"></span>
+                DOI(s) linking to related resources
+              </div>
+            </div>
+          </td>
+        </tr>
+</tbody></table>
+    </div>
+  </div>
+</div>
+    <div class="submission-history">
+      <h2>Submission history</h2> From: Wanxin Li [<a href="https://arxiv.org/show-email/4c67d699/2305.19591">view email</a>]      <br>            <strong><a href="https://arxiv.org/abs/2305.19591v1">[v1]</a></strong>
+        Wed, 31 May 2023 06:25:19 UTC (1,941 KB)<br>
+    <strong>[v2]</strong>
+        Sun, 4 Jun 2023 10:54:15 UTC (1,941 KB)<br>
+</div>
+  </div>
+  <!--end leftcolumn-->
+<div class="extra-services">    <div class="full-text">
+      <a name="other"></a>
+      <span class="descriptor">Full-text links:</span>
+      <h2>Access Paper:</h2>
+      <ul>
+  <div id="download-button-info" hidden="">
+View a PDF of the paper titled Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities, by Maryam Shaygan and 4 other authors</div><li><a href="https://arxiv.org/pdf/2305.19591" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li><li><a href="https://arxiv.org/src/2305.19591" class="abs-button download-eprint">TeX Source</a></li><li><a href="https://arxiv.org/format/2305.19591" class="abs-button download-format">Other Formats</a></li></ul>
+      <div class="abs-license"><a href="http://arxiv.org/licenses/nonexclusive-distrib/1.0/" title="Rights to this article">view license</a></div>
+    </div>
+    <!--end full-text-->    <div class="browse">
+    Current browse context: <div class="current">cs.LG</div>
+
+  <div class="prevnext">
+<span class="arrow">
+      <a class="abs-button prev-url" href="https://arxiv.org/prevnext?id=2305.19591&amp;function=prev&amp;context=cs.LG" accesskey="p" title="previous in cs.LG (accesskey p)">&lt;&nbsp;prev</a>
+    </span>
+    <span class="is-hidden-mobile">&nbsp; | &nbsp;</span>    <span class="arrow">
+      <a class="abs-button next-url" href="https://arxiv.org/prevnext?id=2305.19591&amp;function=next&amp;context=cs.LG" accesskey="n" title="next in cs.LG (accesskey n)">next&nbsp;&gt;</a>
+    </span><br>
+  </div><div class="list">
+    <a class="abs-button abs-button-grey abs-button-small context-new" href="https://arxiv.org/list/cs.LG/new">new</a>
+    <span class="is-hidden-mobile"> | </span>
+    <a class="abs-button abs-button-grey abs-button-small context-recent" href="https://arxiv.org/list/cs.LG/recent">recent</a>
+    <span class="is-hidden-mobile"> | </span><a class="abs-button abs-button-grey abs-button-small context-id" href="https://arxiv.org/list/cs.LG/2023-05">2023-05</a>
+  </div><div class="abs-switch-cat">
+    Change to browse by:
+    <div class="switch context-change">
+        <a href="https://arxiv.org/abs/2305.19591?context=cs">cs</a><br class="is-hidden-mobile">
+        <a class="subclass" href="https://arxiv.org/abs/2305.19591?context=cs.AI">cs.AI</a><br class="is-hidden-mobile">
+    </div>
+  </div>
+
+    </div>
+
+    <div class="extra-ref-cite">
+      <h3>References &amp; Citations</h3>
+      <ul>
+        <li><a class="abs-button abs-button-small cite-ads" href="https://ui.adsabs.harvard.edu/abs/arXiv:2305.19591">NASA ADS</a></li><li><a class="abs-button abs-button-small cite-google-scholar" href="https://scholar.google.com/scholar_lookup?arxiv_id=2305.19591" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a class="abs-button abs-button-small cite-semantic-scholar" href="https://api.semanticscholar.org/arXiv:2305.19591" target="_blank" rel="noopener">Semantic Scholar</a></li>
+      </ul>
+      <div style="clear:both;"></div>
+    </div>
+
+<div class="extra-ref-cite">
+    <a id="bib-cite-css" hidden="true" href="https://arxiv.org/static/browse/0.3.4/css/cite.css">a</a>
+
+    <span id="bib-cite-trigger" class="bib-cite-button abs-button">export BibTeX citation</span>
+    <span id="bib-cite-loading" hidden="true">Loading...</span>
+</div>
+
+<div id="bib-cite-modal" class="bib-modal" hidden="true">
+    <div class="bib-modal-content">
+        <div class="bib-modal-title">
+            <h2>BibTeX formatted citation</h2>
+            <span class="bib-modal-close">×</span>
+        </div>
+        <div>
+            <textarea id="bib-cite-target" class="bib-citation-content" aria-label="loading the citation">loading...</textarea>
+        </div>
+        <div>
+            <span>Data provided by: </span>
+            <a id="bib-cite-source-api"></a>
+        </div>
+    </div>
+</div><div class="bookmarks">
+  <div><h3>Bookmark</h3></div><a class="abs-button abs-button-grey abs-button-small" href="http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2305.19591&amp;description=Traffic%20Prediction%20using%20Artificial%20Intelligence:%20Review%20of%20Recent%20Advances%20and%20Emerging%20Opportunities" title="Bookmark on BibSonomy">
+    <img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/bibsonomy.png" alt="BibSonomy logo">
+  </a>
+  <a class="abs-button abs-button-grey abs-button-small" href="https://reddit.com/submit?url=https://arxiv.org/abs/2305.19591&amp;title=Traffic%20Prediction%20using%20Artificial%20Intelligence:%20Review%20of%20Recent%20Advances%20and%20Emerging%20Opportunities" title="Bookmark on Reddit">
+    <img src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/reddit.png" alt="Reddit logo">
+  </a>
+</div>  </div>
+  <!--end extra-services-->
+<!-- LABS AREA -->
+<div id="labstabs">
+  <div class="labstabs"><input type="radio" name="tabs" id="tabone" checked="checked">
+    <label for="tabone">Bibliographic Tools</label>
+    <div class="tab labs-display-bib">
+      <h1>Bibliographic and Citation Tools</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="bibex-toggle" type="checkbox" class="lab-toggle">
+              <span class="slider"></span>
+              <span class="is-sr-only">Bibliographic Explorer Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-bibex">Bibliographic Explorer</span> <em>(<a href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em>
+          </div>
+        </div>
+<div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="litmaps-toggle" type="checkbox" class="lab-toggle" data-script-url="/static/browse/0.3.4/js/litmaps.js?20210617" aria-labelledby="label-for-litmaps">
+              <span class="slider"></span>
+              <span class="is-sr-only">Litmaps Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-litmaps">Litmaps</span> <em>(<a href="https://www.litmaps.co/" target="_blank">What is Litmaps?</a>)</em>
+          </div>
+        </div>
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="scite-toggle" type="checkbox" class="lab-toggle" data-script-url="/static/browse/0.3.4/js/scite.js?20210617" aria-labelledby="label-for-scite">
+              <span class="slider"></span>
+              <span class="is-sr-only">scite.ai Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-scite">scite Smart Citations</span> <em>(<a href="https://www.scite.ai/" target="_blank">What are Smart Citations?</a>)</em>
+          </div>
+        </div>
+      </div>
+        <div class="labs-content-placeholder labs-display" style="display: none;"></div>
+        <div style="min-height: 15px" id="litmaps-open-in"></div>
+        <div style="min-height: 15px" id="scite-open-in"></div>
+    </div>
+
+
+    <input type="radio" name="tabs" id="tabtwo">
+    <label for="tabtwo">Code, Data, Media</label>
+    <div class="tab">
+      <h1>Code, Data and Media Associated with this Article</h1>
+      <div class="toggle">
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="catalyzex-toggle" data-script-url="/static/browse/0.3.4/js/catalyzex.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-cx">
+              <span class="slider"></span>
+              <span class="is-sr-only">Links to Code Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-cx">CatalyzeX Code Finder for Papers</span> <em>(<a href="https://www.catalyzex.com/" target="_blank">What is CatalyzeX?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="dagshub-toggle" data-script-url="/static/browse/0.3.4/js/dagshub.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-dagshub">
+              <span class="slider"></span>
+              <span class="is-sr-only">DagsHub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
+          </div>
+        </div>
+  
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="gotitpub-toggle" data-script-url="/static/browse/0.3.4/js/gotitpub.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-gotitpub">
+              <span class="slider"></span>
+              <span class="is-sr-only">GotitPub Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-gotitpub">Gotit.pub</span> <em>(<a href="http://gotit.pub/faq" target="_blank">What is GotitPub?</a>)</em>
+          </div>
+        </div>
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="paperwithcode-toggle" data-script-url="/static/browse/0.3.4/js/paperswithcode.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-pwc">
+              <span class="slider"></span>
+              <span class="is-sr-only">Links to Code Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-pwc">Papers with Code</span> <em>(<a href="https://paperswithcode.com/" target="_blank">What is Papers with Code?</a>)</em>
+          </div>
+        </div>
+
+
+        <div class="columns is-mobile lab-row">
+          <div class="column lab-switch">
+            <label class="switch">
+              <input id="sciencecast-toggle" data-script-url="/static/browse/0.3.4/js/sciencecast.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-sciencecast">
+              <span class="slider"></span>
+              <span class="is-sr-only">ScienceCast Toggle</span>
+            </label>
+          </div>
+          <div class="column lab-name">
+            <span id="label-for-sciencecast">ScienceCast</span> <em>(<a href="https://sciencecast.org/welcome" target="_blank">What is ScienceCast?</a>)</em>
+          </div>
+        </div>
+      </div>
+
+      <div id="catalyzex-output" style="display:none"></div>
+      <div id="dagshub-output" style="display:none"></div>
+      <div id="gotitpub-output" style="display:none"></div>
+      <div id="pwc-output" style="display:none"></div>
+      <div id="pwc-data-output" style="display:none"></div>
+      <div id="sciencecast-output" style="display:none"></div>
+    </div>
+
+
+      <input type="radio" name="tabs" id="labstabs-demos-input">
+      <label for="labstabs-demos-input" id="labstabs-demos-label">Demos</label>
+      <div class="tab">
+        <h1>Demos</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="replicate-toggle" data-script-url="/static/browse/0.3.4/js/replicate.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-replicate">
+                <span class="slider"></span>
+                <span class="is-sr-only">Replicate Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-replicate">Replicate</span> <em>(<a href="https://replicate.com/docs/arxiv/about" target="_blank">What is Replicate?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="spaces-toggle" data-script-url="/static/browse/0.3.4/js/spaces.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-spaces">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-spaces">Hugging Face Spaces</span> <em>(<a href="https://huggingface.co/docs/hub/spaces" target="_blank">What is Spaces?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="txyz-toggle" data-script-url="/static/browse/0.3.4/js/txyz.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-txyz">
+                <span class="slider"></span>
+                <span class="is-sr-only">Spaces Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-txyz">TXYZ.AI</span> <em>(<a href="https://txyz.ai/" target="_blank">What is TXYZ.AI?</a>)</em>
+            </div>
+          </div>
+        </div>
+        <div id="replicate-output"></div>
+        <div id="spaces-output"></div>
+        <div id="txyz-output"></div>
+      </div>
+      <input type="radio" name="tabs" id="tabfour">
+      <label for="tabfour">Related Papers</label>
+      <div class="tab">
+        <h1>Recommenders and Search Tools</h1>
+        <div class="toggle">
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="influenceflower-toggle" data-script-url="/static/browse/0.3.4/js/influenceflower.js" type="checkbox" class="lab-toggle" aria-labelledby="label-for-influenceflower">
+                <span class="slider"></span>
+                <span class="is-sr-only">Link to Influence Flower</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-influenceflower">Influence Flower</span> <em>(<a href="https://influencemap.cmlab.dev/" target="_blank">What are Influence Flowers?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="connectedpapers-toggle" type="checkbox" class="lab-toggle" data-script-url="/static/browse/0.3.4/js/connectedpapers.js" aria-labelledby="label-for-connected-papers">
+                <span class="slider"></span>
+                <span class="is-sr-only">Connected Papers Toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-connected-papers">Connected Papers</span> <em>(<a href="https://www.connectedpapers.com/about" target="_blank">What is Connected Papers?</a>)</em>
+            </div>
+          </div>
+          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="core-recommender-toggle" type="checkbox" class="lab-toggle" aria-labelledby="label-for-core">
+                <span class="slider"></span>
+                <span class="is-sr-only">Core recommender toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-core">CORE Recommender</span> <em>(<a href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em>
+            </div>
+          </div>          <div class="columns is-mobile lab-row">
+            <div class="column lab-switch">
+              <label class="switch">
+                <input id="iarxiv-toggle" type="checkbox" class="lab-toggle" data-script-url="/static/browse/0.3.4/js/iarxiv.js" aria-labelledby="label-for-iarxiv">
+                <span class="slider"></span>
+                <span class="is-sr-only">IArxiv recommender toggle</span>
+              </label>
+            </div>
+            <div class="column lab-name">
+              <span id="label-for-iarxiv">IArxiv Recommender</span>
+              <em>(<a href="https://iarxiv.org/about">What is IArxiv?</a>)</em>
+            </div>
+          </div>
+</div>
+        <div id="influenceflower-output"></div>
+        <div id="influenceflower-output-graph" style="display:none">
+          <ul class="flower-tabs">
+            <li class="active"><a class="btn tab-btn" onclick="openTab(event, &#39;tab-author&#39;)">Author</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, &#39;tab-venue&#39;)">Venue</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, &#39;tab-inst&#39;)">Institution</a></li>
+            <li><a class="btn tab-btn" onclick="openTab(event, &#39;tab-topic&#39;)">Topic</a></li>
+          </ul>
+          <div class="flower-tab-content">
+            <div class="tab-flower active" id="tab-author"><svg id="flower-graph-author"></svg></div>
+            <div class="tab-flower" id="tab-venue"><svg id="flower-graph-venue"></svg></div>
+            <div class="tab-flower" id="tab-inst"><svg id="flower-graph-inst"></svg></div>
+            <div class="tab-flower" id="tab-topic"><svg id="flower-graph-topic"></svg></div>
+          </div>
+        </div>
+        <div style="min-height: 15px" id="connectedpapers-output"></div>
+        <div id="coreRecommenderOutput"></div>
+        <div id="iarxivOutput"></div>
+      </div>
+
+      <input type="radio" name="tabs" id="tabfive">
+      <label for="tabfive">
+        About arXivLabs
+      </label>
+      <div class="tab">
+        <div class="columns">
+          <div class="column">
+            <h1>arXivLabs: experimental projects with community collaborators</h1>
+            <p>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+            <p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+            <p>Have an idea for a project that will add value for arXiv's community? <a href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+          </div>
+          <div class="column is-narrow is-full-mobile">
+            <p class="icon-labs"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 635.572 811"><path d="M175.6 676v27h-27v-27zm-54 27v27h27v-27zm-27 27v27h27v-27zm396-54v27h-27v-27zm0 27v27h27v-27zm27 27v27h27v-27zm-27-414h27v27h-27zm27 0h27v-27h-27zm27-27h27v-27h-27zm-396 45h-27v-27h27zm-27-54h-27v27h27zm-27-27h-27v27h27z"></path><path d="M94.6 730v27h-27v-27zm477 0v27h-27v-27zm-27-495h27v27h-27zm-450 18h-27v-27h27zm477 9h27v27h-27zm-54 495h27v27h-27zm-423 0h27v27h-27zm-54-504h27v27h-27z" fill="#666"></path><path d="M67.6 730v27h-27v-27zm54 54v27h-27v-27zm0-108v27h27v-27zm-27 27v27h27v-27zm-81 0v27h27v-27zm585 27v27h-27v-27zm-108-54v27h27v-27zm27 27v27h27v-27zm81 0v27h27v-27zm-54-495h27v27h-27zm-54 108h27v-27h-27zm27-27h27v-27h-27zm0-81h27v-27h-27zm-423 18h-27v-27h27zm54 54h-27v27h27zm-27-27h-27v27h27zm0-81h-27v27h27zm423 612v27h-27v-27zm81-522v27h-27v-27zm-585-9v27h-27v-27z" fill="#999"></path><path d="M94.6 784v27h-27v-27zm-27-27v27h27v-27zm-27-54v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm-108 81v27h27v-27zm558 54v27h-27v-27zm-27-27v27h27v-27zm27-54v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm108 81v27h27v-27zm0-495h27v27h-27zm-27 27h27v-27h-27zm-54-27h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm81-108h27v-27h-27zm-504 45h-27v-27h27zm27-27h-27v27h27zm54-27h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm-81-108h-27v27h27z" fill="#ccc"></path><path d="M598.6 665.1H41.5C-76.5 667 176 280.2 176 280.2h53a46.5 46.5 0 0162.8-56.3 29.2 29.2 0 1128.5 35.9h-1a46.5 46.5 0 01-1.5 20.3l142.5-.1s255.3 387 138.3 385.1zM291 181a29.3 29.3 0 10-29.2-29.3A29.3 29.3 0 00291 181zm65.4-66.8a22.4 22.4 0 10-22.5-22.4 22.4 22.4 0 0022.5 22.4z" fill="#fc0"></path><path d="M245.5 172V10h153v162s324 495 198 495h-558c-126 0 207-495 207-495zm126 54h56m-13 72h56m-9 72h56m-20 72h56m-22 72h56m-29 72h56m-457-45c20.8 41.7 87.3 81 160.7 81 72.1 0 142.1-38.2 163.4-81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="20"></path><path d="M273.3 421.7c0 31-9.8 56.3-21.9 56.3s-21.8-25.2-21.8-56.3 9.8-56.3 21.8-56.3 21.9 25.2 21.9 56.3zm114.4-56.3c-12 0-21.8 25.2-21.8 56.3s9.7 56.3 21.8 56.3 21.9-25.2 21.9-56.3-9.8-56.3-21.9-56.3zM150.1 526.6c-18.2 6.7-27.5 22.9-23.2 30.2s14.8-5.5 33-12.2 37.4-4.9 33-12.2-24.5-12.6-42.8-5.8zm296 5.8c-4.2 7.3 14.9 5.5 33.1 12.2s28.7 19.5 33 12.2-5-23.5-23.2-30.2-38.5-1.5-42.8 5.8z"></path></svg></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+<!-- END LABS AREA -->
+  <div class="endorsers">
+    <a href="https://arxiv.org/auth/show-endorsers/2305.19591" class="endorser-who">Which authors of this paper are endorsers?</a> |
+    <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)
+    <span class="help" style="font-style: normal; float: right; margin-top: 0; margin-right: 1em;"></span>
+  </div>
+  <script type="text/javascript" language="javascript">mathjaxToggle();</script>
+</div>
+      </div>
+    </main>
+
+    <footer style="clear: both;">
+      <div class="columns is-desktop" role="navigation" aria-label="Secondary" style="margin: -0.75em -0.75em 0.75em -0.75em">
+        <!-- Macro-Column 1 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/about">About</a></li>
+                <li><a href="https://info.arxiv.org/help">Help</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                  <a href="https://info.arxiv.org/help/contact.html"> Contact</a>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg>
+                  <a href="https://info.arxiv.org/help/subscribe"> Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Macro-Column 1 -->
+        <!-- Macro-Column 2 -->
+        <div class="column" style="padding: 0;">
+          <div class="columns">
+            <div class="column">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/license/index.html">Copyright</a></li>
+                <li><a href="https://info.arxiv.org/help/policies/privacy_policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="column sorry-app-links">
+              <ul style="list-style: none; line-height: 2;">
+                <li><a href="https://info.arxiv.org/help/web_accessibility.html">Web Accessibility Assistance</a></li>
+                <li>
+                  <p class="help">
+                    <a class="a11y-main-link" href="https://status.arxiv.org/" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></a><br>
+                    Get status notifications via
+                    <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>email</a>
+                    or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"></path></svg>slack</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- end MetaColumn 2 -->
+        <!-- End Macro-Column 2 -->
+      </div>
+    </footer>
+  </div>
+
+  <script src="./[2305.19591] Traffic Prediction using Artificial Intelligence_ Review of Recent Advances and Emerging Opportunities_files/member_acknowledgemen.download"></script>
+
+
+
+<div dji-sru-rewordify-popup="true"><div class="dji-sru-close-btn"></div><div dji-sru-rewordify-body="true" tabindex="0"><div dji-non-draggable="true"></div></div><div class="dji-geom-ctrl-resize-top"></div><div class="dji-geom-ctrl-resize-bottom"></div><div class="dji-geom-ctrl-resize-left"></div><div class="dji-geom-ctrl-resize-right"></div><div class="dji-geom-ctrl-resize-top-left"></div><div class="dji-geom-ctrl-resize-top-right"></div><div class="dji-geom-ctrl-resize-bottom-right"></div><div class="dji-geom-ctrl-resize-bottom-left"></div><div class="geomCtrlContainerOverlay"></div></div><div id="dji-sru-busy-state"></div><dji-sru-distraction><template shadowrootmode="open"><style>@font-face {
+    font-family: "Quattrocento Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../../resources/fonts/Quattrocento_Sans/QuattrocentoSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Quattrocento";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../../resources/fonts/Quattrocento/Quattrocento-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Alegreya Italic";
+    font-style: italic;
+    font-weight: normal;
+    src: url(../../resources/fonts/Alegreya/Alegreya-Italic.ttf) format("truetype");
+}
+
+/* ----------------------------------------------------------------------
+   light/dark theme
+   ---------------------------------------------------------------------- */
+
+html.dji-sru-distractions-active, html[dji-theme=light] {
+    --dji-sru-distraction-background-color: #FFFFFF;
+    --dji-sru-distraction-main-color: rgba(0, 0, 0, .87);
+    --dji-sru-distraction-title-color: rgba(0, 0, 0, 1);
+    --dji-sru-distraction-author-color: rgba(0, 0, 0, 0.5);
+    --dji-sru-distraction-header-color: rgba(0, 0, 0, 1);
+    --dji-sru-distraction-a-color: #607d8b;
+    --dji-sru-distraction-a-hover-color: #55a64;
+    --dji-sru-distraction-a-hover-underline-border-color: #78909c;
+    --dji-sru-distraction-pre-background-color: rgba(0, 0, 0, 0.05);
+    --dji-sru-distraction-blockquote-color: rgba(0, 0, 0, 0.5);
+    --dji-sru-distraction-blockquote-border-color: rgba(0, 0, 0, 0.5);
+    --dji-sru-distraction-caption-color: rgba(0, 0, 0, 0.5);
+    --dji-sru-distraction-table-color: rgba(0, 0, 0, .87);
+}
+
+html[dji-theme=dark] {
+    --dji-sru-distraction-background-color: #000000;
+    --dji-sru-distraction-main-color: #FFFFFF;
+    --dji-sru-distraction-title-color: rgba(255, 255, 255, 1);
+    --dji-sru-distraction-author-color: rgba(255, 255, 255, 0.5);
+    --dji-sru-distraction-header-color: rgba(255, 255, 255, 1);
+    --dji-sru-distraction-a-color: #607d8b;
+    --dji-sru-distraction-a-hover-color: #55a64;
+    --dji-sru-distraction-a-hover-underline-border-color: #78909c;
+    --dji-sru-distraction-pre-background-color: rgba(255, 255, 255, .05);
+    --dji-sru-distraction-blockquote-color: rgba(255, 255, 255, 0.5);
+    --dji-sru-distraction-blockquote-border-color: rgba(255, 255, 255, 0.5);
+    --dji-sru-distraction-caption-color: rgba(255, 255, 255, 0.5);
+    --dji-sru-distraction-table-color: rgba(255, 255, 255, .87);
+}
+
+/* ----------------------------------------------------------------------
+   distraction
+   ---------------------------------------------------------------------- */
+
+.dji-sru-distractions-active body {
+    background-color: var(--dji-sru-distraction-background-color);
+}
+
+html[dji-sru-distractions-active] {
+    width: 100% !important;
+}
+
+.dji-sru-remove-distractions-iframe {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border: none;
+    box-shadow: 0 -8px 24px 2px rgba(0, 0, 0, 0.14), 0 -3px 30px 5px rgba(0, 0, 0, 0.12), 0 -4px 10px 0 rgba(0, 0, 0, 0.20);
+}
+
+html.dji-no-scroll {
+    overflow: hidden !important;
+}
+
+.dji-sru-distractions-main {
+    color: var(--dji-sru-distraction-main-color);
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    max-width: 600px;
+    padding: 0 56px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dji-sru-distractions-header {
+    display: none;
+    margin: 0 auto 10px;
+}
+
+.dji-sru-distractions-header.dji-visible {
+    display: block;
+}
+
+.dji-sru-distractions-author {
+    font-family: "Quattrocento";
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--dji-sru-distraction-author-color);
+}
+
+.dji-sru-distractions-title {
+    font-size: 36px;
+    font-family: "Quattrocento";
+    line-height: 1.3;
+    color: var(--dji-sru-distraction-title-color);
+    text-align: left;
+    margin: 72px 0 24px 0;
+}
+
+.dji-sru-distractions-content {
+    margin-bottom: 100px;
+}
+
+.dji-sru-distractions-content a {
+    color: var(--dji-sru-distraction-a-color);
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.dji-sru-distractions-content a:hover {
+    color: var(--dji-sru-distraction-a-hover-color);
+    border-bottom: 1px var(--dji-sru-distraction-a-hover-underline-border-color) solid;
+}
+
+.dji-sru-distractions-content img, .dji-sru-distractions-content video {
+    width: 100%;
+    height: auto;
+    margin: 24px 0;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.dji-sru-distractions-content figure {
+    margin-inline-start: 0;
+}
+
+.dji-sru-distractions-content h1, .dji-sru-distractions-content .h1 {
+    font-family: "Quattrocento";
+    color: var(--dji-sru-distraction-header-color);
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 32px 0 64px 0;
+    font-weight: normal;
+}
+
+.dji-sru-distractions-content h2, .dji-sru-distractions-content .h2 {
+    font-family: "Quattrocento";
+    color: var(--dji-sru-distraction-header-color);
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 32px 0;
+    font-weight: normal;
+}
+
+.dji-sru-distractions-content h3, .dji-sru-distractions-content .h3 {
+    font-family: "Quattrocento";
+    color: var(--dji-sru-distraction-header-color);
+    font-size: 30px;
+    line-height: 1.4;
+    margin: 32px 0;
+    font-weight: normal;
+}
+
+.dji-sru-distractions-content h4, .dji-sru-distractions-content .h4 {
+    font-family: "Quattrocento";
+    color: var(--dji-sru-distraction-header-color);
+    font-size: 28px;
+    line-height: 1.4;
+    margin: 32px 0;
+    font-weight: normal;
+}
+
+.dji-sru-distractions-content h5, .dji-sru-distractions-content .h5 {
+    font-family: "Quattrocento";
+    color: var(--dji-sru-distraction-header-color);
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 32px 0;
+    font-weight: normal;
+}
+
+.dji-sru-distractions-content p, .dji-sru-distractions-content ul, .dji-sru-distractions-content ol, .dji-sru-distractions-content pre, .dji-sru-distractions-content table, .dji-sru-distractions-content blockquote {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.dji-sru-distractions-content pre {
+    font-family: Monaco, monospace;
+    font-size: 16px;
+    padding: 0 20px;
+    white-space: pre;
+    margin: 0;
+    background-color: var(--dji-sru-distraction-pre-background-color);
+    overflow: auto;
+    direction: ltr !important;
+}
+
+.dji-sru-distractions-content pre * {
+    font-family: Monaco, monospace;
+}
+
+.dji-sru-distractions-content blockquote {
+    font-family: "Alegreya Italic";
+    font-size: 24px;
+    color: var(--dji-sru-distraction-blockquote-color);
+    margin: 0 0 20px 0;
+    padding: 1em;
+    border-left: 2px solid var(--dji-sru-distraction-blockquote-border-color);
+);
+}
+
+.dji-sru-distractions-content .caption, .dji-sru-distractions-content .pb-caption, .dji-sru-distractions-content .wp-caption-text, .dji-sru-distractions-content figcaption, .dji-sru-distractions-content cite {
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--dji-sru-distraction-caption-color);
+}
+
+.dji-sru-distractions-content table {
+    color: var(--dji-sru-distraction-table-color);
+}
+
+@media only screen and (max-width: 1098px) {
+
+    .dji-sru-outline-active .dji-sru-distractions-main {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding: 0 20px;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-title, .dji-sru-outline-active .dji-sru-distractions-content h1, .dji-sru-outline-active .dji-sru-distractions-content .h1 {
+        font-size: 28px;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-content h2, .dji-sru-outline-active .dji-sru-distractions-content .h2 {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-content h3, .dji-sru-outline-active .dji-sru-distractions-content .h3 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-content h4, .dji-sru-outline-active .dji-sru-distractions-content .h4 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-content h5, .dji-sru-outline-active .dji-sru-distractions-content .h5 {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-outline-active .dji-sru-distractions-content pre {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .dji-sru-distractions-main {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding: 0 20px;
+    }
+
+    .dji-sru-distractions-title, .dji-sru-distractions-content h1, .dji-sru-distractions-content .h1 {
+        font-size: 28px;
+    }
+
+    .dji-sru-distractions-content h2, .dji-sru-distractions-content .h2 {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-distractions-content h3, .dji-sru-distractions-content .h3 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-distractions-content h4, .dji-sru-distractions-content .h4 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-distractions-content h5, .dji-sru-distractions-content .h5 {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .dji-sru-distractions-content pre {
+        font-size: 14px;
+    }
+}
+
+@media print {
+	#dji-sru-remove-distractions-iframe {
+	display: none;
+	}
+}</style><iframe id="dji-sru-remove-distractions-iframe" class="dji-sru-remove-distractions-iframe"></iframe></template></dji-sru-distraction><div dji-sru-rewordify-popup="true"><div class="dji-sru-close-btn"></div><div dji-sru-rewordify-body="true" tabindex="0"><div dji-non-draggable="true"></div></div><div class="dji-geom-ctrl-resize-top"></div><div class="dji-geom-ctrl-resize-bottom"></div><div class="dji-geom-ctrl-resize-left"></div><div class="dji-geom-ctrl-resize-right"></div><div class="dji-geom-ctrl-resize-top-left"></div><div class="dji-geom-ctrl-resize-top-right"></div><div class="dji-geom-ctrl-resize-bottom-right"></div><div class="dji-geom-ctrl-resize-bottom-left"></div><div class="geomCtrlContainerOverlay"></div></div></body><dji-sru id="__dji_sru_components"><template shadowrootmode="open"><iframe id="dji_sru_define_word" style="left: 0px; top: 0px; width: 100%; height: 100%; position: fixed;"></iframe></template></dji-sru><dji-sru id="__dji_sru_main_container"><template shadowrootmode="open"><iframe dji-template-id="__dji_sru_main_container_iframe" scrolling="no" seamless="" class="dji-sru-initial dji-sru-initial-display dji-sru-no-printable" id="__dji_sru_main_container_iframe" style="border: none; width: 100%; height: 100%;"></iframe></template></dji-sru><dji-cowriter tabindex="-1"><template shadowrootmode="closed"><style>:host{--dji-cwu-main-view-offset-right:0px}@media print{:host{display:none!important}}:host-context([dji-sru-active]){--dji-cwu-main-view-offset-right:32px}:host-context([dji-sru-active][dji-sru-outline-active]){--dji-cwu-main-view-offset-right:442px}dji-cwu-main-view{all:initial}dji-cwu-main-view *,dji-cwu-main-view :after,dji-cwu-main-view :before,dji-cwu-main-view:after,dji-cwu-main-view:before{all:unset}dji-cwu-main-view input,dji-cwu-main-view input:after,dji-cwu-main-view input:before{all:unset!important}dji-cwu-main-view{--dji-cwu-transform-scale:var(--dji-cwu-opt-transform-scale,1);--dji-cwu-main-view-width:170px;--dji-cwu-main-view-height:calc(var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-height) + var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-margin-top-size) + (var(--dji-cwu-suggestion-elem-count) - 1)*var(--dji-cwu-suggestion-elem-margin-bottom-size) + 160px);--dji-cwu-main-view-horizontal-height:60px;--dji-cwu-tab-view-toolbar-horizontal-width:calc(var(--dji-cwu-main-view-horizontal-height)*3 + 8px);--dji-cwu-horizontal-layout-separator-color:rgba(0,0,0,.12);--dji-cwu-suggestion-elem-count:var(--dji-cwu-opt-suggestion-elem-count,6);--dji-cwu-suggestion-elem-height:calc(var(--dji-cwu-suggestion-elem-label-font-size) + 6px);--dji-cwu-suggestion-elem-margin-top-size:0px;--dji-cwu-suggestion-elem-margin-bottom-size:1px;--dji-cwu-suggestion-elem-label-font-size:24px;--dji-cwu-suggestion-elem-label-translate-y:2px;--dji-cwu-suggestion-elem-text-font-size:16px;--dji-cwu-suggestion-elem-text-line-height:var(--dji-cwu-suggestion-elem-label-font-size);--dji-cwu-keyboard-key-size:30px;--dji-cwu-keyboard-large-key-size:44px;--dji-cwu-keyboard-key-space-size:6px;--dji-cwu-keyboard-key-font-size:16px;--dji-cwu-text-font-family:"Verdana","Roboto","sans-serif";--dji-cwu-text-color-rgb:0,0,0;--dji-cwu-bkgnd-color-rgb:255,255,255;--dji-cwu-main-color:#008ccd;--dji-cwu-disabled-color:#c6c5c5;--dji-cwu-main-complementary-color:#fff;--dji-cwu-main-background-color:rgb(var(--dji-cwu-bkgnd-color-rgb));--dji-cwu-separator-color:rgba(var(--dji-cwu-text-color-rgb),0.30);--dji-cwu-hover-color:rgba(var(--dji-cwu-text-color-rgb),0.12);--dji-cwu-suggestion-elem-label-color:rgba(var(--dji-cwu-text-color-rgb),0.54);--dji-cwu-suggestion-elem-text-color:rgba(var(--dji-cwu-text-color-rgb),0.87);--dji-cwu-keyboard-key-text-color:rgba(var(--dji-cwu-text-color-rgb),0.87);--dji-cwu-second-color:rgba(var(--dji-cwu-text-color-rgb),0.87);--dji-cwu-third-color:rgba(var(--dji-cwu-text-color-rgb),0.54);--dji-cwu-fourth-color:hsla(0,0%,100%,.4);--dji-cwu-first-active-color:#ff0;--dji-cwu-search-box-bkgnd-color:var(--dji-cwu-main-color);--dji-cwu-search-box-disabled-bkgnd-color:#c6c5c5;--dji-cwu-main-container-box-shadow-color-1:rgba(0,0,0,.12);--dji-cwu-main-container-box-shadow-color-2:rgba(0,0,0,.24);--dji-cwu-speech-recognition-toolbar-box-shadow-color:silver;--dji-cwu-speech-recognition-icon-box-shadow-color:silver;--dji-cwu-talking-word-processor-main-color:#000;--dji-cwu-speech-recognition-icon-box-shadow-color-0-1:#d0d0d0;--dji-cwu-speech-recognition-icon-box-shadow-color-0-2:#a0a0a0;--dji-cwu-speech-recognition-icon-box-shadow-color-50-1:#f0f0f0;--dji-cwu-speech-recognition-icon-box-shadow-color-50-2:#a0a0a0;--dji-cwu-speech-recognition-icon-box-shadow-color-100-1:#d0d0d0;--dji-cwu-speech-recognition-icon-box-shadow-color-100-2:#a0a0a0}dji-cwu-main-view[dji-cwu-mode=type]{--dji-cwu-text-color-rgb:var(--dji-cwu-opt-text-color-rgb,0,0,0);--dji-cwu-bkgnd-color-rgb:var(--dji-cwu-opt-bkgnd-color-rgb,255,226,59);--dji-cwu-main-color:rgba(var(--dji-cwu-text-color-rgb),0.87);--dji-cwu-text-font-family:var(--dji-cwu-opt-text-font-family,'"Verdana", "Roboto", "sans-serif"')}dji-cwu-main-view{font-smooth:subpixel-antialiased;font-feature-settings:"liga" 0;background-color:var(--dji-cwu-main-background-color);box-shadow:0 0 6px 1px var(--dji-cwu-main-container-box-shadow-color-1),0 2px 6px 1px var(--dji-cwu-main-container-box-shadow-color-2);display:block;font-family:var(--dji-cwu-text-font-family);font-size:0;font-weight:400;line-height:0px;margin:0;padding:0;position:absolute;text-rendering:optimizeLegibility;transform:scale(var(--dji-cwu-transform-scale));transform-origin:left top;user-select:none!important}[dji-horizontal-layout] dji-cwu-main-view{height:var(--dji-cwu-main-view-horizontal-height);width:calc((100% - var(--dji-cwu-main-view-offset-right))/var(--dji-cwu-transform-scale))}dji-cwu-main-view>dji-cwu-main-container{display:grid;margin:0;min-width:var(--dji-cwu-main-view-width);padding:0;position:relative}dji-cwu-main-view[dji-cwu-demo]{bottom:auto;left:auto;right:0;top:0;transform-origin:right top}dji-cwu-main-view[dji-cwu-demo]>*{pointer-events:none}dji-cwu-main-view [dji-cwu-hidden],dji-cwu-main-view[dji-cwu-hidden]{display:none!important}dji-cwu-main-view dji-cwu-icon{display:inline-block;font-size:24px;height:24px;line-height:24px;position:relative;text-align:center;width:24px}dji-cwu-main-view dji-cwu-icon[dji-cwu-shape-round]{border-radius:50%}dji-cwu-main-view dji-cwu-icon[dji-cwu-src]:before{display:inline-block;height:100%;margin:0;padding:0;text-align:center;width:100%}dji-cwu-main-view dji-cwu-icon[dji-cwu-src][dji-cwu-shape-round]:before{border-radius:50%}dji-cwu-icon i.svg-speech_back{zoom:1.2;margin-top:-2px}dji-cwu-icon i.svg-play_arrow{zoom:1.2;margin-top:18px}dji-cwu-icon i.svg-arrow_back_grey,dji-cwu-icon i.svg-mic,dji-cwu-icon i.svg-search{margin-top:4px}dji-cwu-main-view dji-cwu-h2{display:block;font-size:20px;font-weight:400;line-height:24px;margin-bottom:16px;position:relative}dji-cwu-main-view dji-cwu-div{display:block;font-size:inherit;font-weight:400;line-height:inherit;position:relative}dji-cwu-main-view dji-cwu-span{display:inline-block;font-size:inherit;font-weight:inherit;line-height:inherit;position:relative}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view{display:flex;flex-direction:column;padding:0;position:relative}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view{display:grid;grid-template-columns:1fr var(--dji-cwu-tab-view-toolbar-horizontal-width)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar{--dji-cwu-this-height:56px;border-top:1px solid var(--dji-cwu-separator-color);box-sizing:border-box;display:flex;flex-direction:row;height:var(--dji-cwu-this-height);justify-content:space-evenly;line-height:var(--dji-cwu-this-height);max-height:var(--dji-cwu-this-height);min-height:var(--dji-cwu-this-height);position:relative;text-align:center;width:100%;z-index:1}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar[dji-cwu-error]{display:none}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar{--dji-cwu-this-height:var(--dji-cwu-main-view-horizontal-height);border-top:none;max-width:var(--dji-cwu-tab-view-toolbar-horizontal-width);min-width:var(--dji-cwu-tab-view-toolbar-horizontal-width);padding-right:3px;width:var(--dji-cwu-tab-view-toolbar-horizontal-width)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button{align-items:center;color:var(--dji-cwu-third-color);cursor:pointer;display:flex;flex-direction:column;flex-grow:1;justify-content:center;padding:0 0 4px;text-align:center}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button{max-width:var(--dji-cwu-main-view-horizontal-height);min-width:var(--dji-cwu-main-view-horizontal-height);width:var(--dji-cwu-main-view-horizontal-height)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[title=Type]{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[dji-cwu-active]{color:var(--dji-cwu-main-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[dji-cwu-active]:not(:first-child){background-color:grey;color:#fff}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[disabled]{color:var(--dji-cwu-disable-text-color);cursor:default;opacity:.5;pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button>dji-cwu-icon{display:block;font-size:22px;height:42px;line-height:42px;width:100%}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[dji-cwu-active]>dji-cwu-icon{font-size:22px;height:24px;line-height:24px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button>dji-cwu-label{display:none;font-size:12px;height:14px;line-height:14px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[dji-cwu-active]>dji-cwu-label{display:block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button dji-cwu-icon i.dji-svg-icon{margin-top:8px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-toolbar>dji-cwu-tab-view-toolbar-button[dji-cwu-active] dji-cwu-icon i.dji-svg-icon{margin-top:0}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages{display:grid;flex:1 0;padding:0;position:relative;z-index:2}[dji-horizontal-layout] ji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages{flex-grow:1}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-active]{display:block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]{display:grid;font-family:var(--dji-cwu-opt-text-font-family);grid-template-columns:1fr 64px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane{box-sizing:border-box;counter-reset:dji-cwu-suggestion-index 0;display:none;height:calc(var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-height) + var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-margin-top-size) + var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-margin-bottom-size));margin-top:8px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane[dji-cwu-options=translations]{height:calc(var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-height) + var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-margin-top-size) + var(--dji-cwu-suggestion-elem-count)*var(--dji-cwu-suggestion-elem-margin-bottom-size) + 24px)}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane{height:var(--dji-cwu-main-view-horizontal-height);margin-top:0}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane[dji-cwu-active]{display:block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane[dji-cwu-active]{display:flex;flex-direction:row;flex-grow:1;flex-wrap:wrap;overflow:hidden}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane>dji-cwu-guesses-pane{display:block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane>dji-cwu-guesses-pane{display:flex;flex-direction:row;flex-grow:1;flex-wrap:wrap;font-family:var(--dji-cwu-text-font-family);justify-content:flex-end;overflow:hidden}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane>dji-cwu-guesses-pane[dji-cwu-hidden]{display:flex!important}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane>dji-cwu-translations-pane{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane[dji-cwu-options=translations]>dji-cwu-translations-pane{display:block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane[dji-cwu-options=translations]>dji-cwu-translations-pane{border-left:1px solid var(--dji-cwu-horizontal-layout-separator-color);display:flex;flex-direction:row;flex-grow:1;justify-content:left}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane>dji-cwu-translations-pane[dji-cwu-restart-numbering]{counter-reset:dji-cwu-suggestion-index -1}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion{box-sizing:border-box;color:var(--dji-cwu-suggestion-elem-text-color);cursor:pointer;display:block;font-size:var(--dji-cwu-suggestion-elem-text-font-size);height:var(--dji-cwu-this-height);line-height:var(--dji-cwu-suggestion-elem-text-line-height);margin:var(--dji-cwu-suggestion-elem-margin-top-size) 0 var(--dji-cwu-suggestion-elem-margin-bottom-size) 0;max-width:300px;min-width:100px;overflow:hidden;padding:0 16px 0 0;text-overflow:ellipsis;white-space:nowrap}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion{border-right:1px solid var(--dji-cwu-horizontal-layout-separator-color);flex-grow:1;height:var(--dji-cwu-main-view-horizontal-height);line-height:var(--dji-cwu-main-view-horizontal-height);max-width:200px;min-width:150px;width:150px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion:first-child{border-left:1px solid var(--dji-cwu-horizontal-layout-separator-color)}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-guesses-pane dji-cwu-suggestion:last-child{border-right:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion:hover:not([dji-cwu-role=translation-placeholder]){background-color:var(--dji-cwu-hover-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion:before{box-sizing:border-box;color:var(--dji-cwu-suggestion-elem-label-color);content:counter(dji-cwu-suggestion-index);counter-increment:dji-cwu-suggestion-index;display:inline-block;font-size:var(--dji-cwu-suggestion-elem-label-font-size);height:var(--dji-cwu-suggestion-elem-height);padding:0 30px 0 0;text-align:right;transform:translateY(var(--dji-cwu-suggestion-elem-label-translate-y));width:62px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-suggestion:before{height:var(--dji-cwu-main-view-horizontal-height);padding:0 20px 0 0;width:52px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane
+dji-cwu-suggestion[dji-cwu-role=translation-placeholder]{color:var(--dji-cwu-separator-color);cursor:default}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane
+dji-cwu-suggestion[dji-cwu-role=translation-placeholder] dji-cwu-icon{font-size:22px;height:29px;line-height:29px;margin-left:-5px;margin-right:-5px;vertical-align:middle}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr{box-sizing:border-box;display:block;height:24px;line-height:24px;width:100%}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr{height:var(--dji-cwu-main-view-horizontal-height);line-height:var(--dji-cwu-main-view-horizontal-height);max-width:40px;min-width:40px;text-align:center;width:40px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr:before{zoom:.7;background:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/sprite/cw/translate.svg) 0 0 no-repeat;background-repeat:no-repeat;box-sizing:border-box;content:"";display:inline-block;height:24px;margin-left:26px;margin-right:38px;text-align:right;width:62px;width:24px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr:before{margin-top:calc(100% - 24px)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr:after{background-color:var(--dji-cwu-separator-color);box-sizing:border-box;content:"x";cursor:pointer;display:inline-block;font-size:0;height:1px;line-height:1px;margin:0;padding:0;text-align:left;transform:translateY(-6px);width:calc(100% - 62px)}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-suggestions-pane dji-cwu-icon-hr:after{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane{grid-column-gap:var(--dji-cwu-keyboard-key-space-size);grid-row-gap:var(--dji-cwu-keyboard-key-space-size);box-sizing:border-box;display:none;grid-template-columns:repeat(5,var(--dji-cwu-keyboard-key-size));padding:var(--dji-cwu-keyboard-key-space-size)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane[dji-cwu-active]{display:grid}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane[dji-cwu-active]{grid-template-columns:repeat(11,1fr);padding:0;place-items:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane>dji-cwu-keyboard-key{border-radius:50%;box-sizing:border-box;color:var(--dji-cwu-keyboard-key-text-color);cursor:pointer;display:block;font-size:var(--dji-cwu-keyboard-key-font-size);height:var(--dji-cwu-keyboard-key-size);line-height:var(--dji-cwu-keyboard-key-size);text-align:center;width:var(--dji-cwu-keyboard-key-size)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane>dji-cwu-separator{border-left:1px solid var(--dji-cwu-horizontal-layout-separator-color);display:none;height:var(--dji-cwu-main-view-horizontal-height);min-width:50px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane>dji-cwu-separator{display:block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane>dji-cwu-keyboard-key{font-size:20px;height:var(--dji-cwu-keyboard-large-key-size);line-height:var(--dji-cwu-keyboard-large-key-size);width:var(--dji-cwu-keyboard-large-key-size)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-keyboard-pane>dji-cwu-keyboard-key:hover{background-color:var(--dji-cwu-hover-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar{box-sizing:border-box;color:var(--dji-cwu-suggestion-elem-text-color);display:block;font-size:14px;height:28px;line-height:16px;padding:6px;text-align:right}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar{font-size:18px;height:var(--dji-cwu-main-view-horizontal-height);line-height:var(--dji-cwu-main-view-horizontal-height);max-width:var(--dji-cwu-main-view-horizontal-height);min-width:var(--dji-cwu-main-view-horizontal-height);padding:0 6px 0 0;width:var(--dji-cwu-main-view-horizontal-height)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar>dji-cwu-toolbar-button{cursor:pointer;display:inline-block}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar>dji-cwu-toolbar-button{height:var(--dji-cwu-main-view-horizontal-height);line-height:var(--dji-cwu-main-view-horizontal-height);text-align:center;width:var(--dji-cwu-main-view-horizontal-height)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar>dji-cwu-toolbar-button[dji-cwu-active]{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar>dji-cwu-toolbar-button:hover{background-color:var(--dji-cwu-hover-color)}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar dji-cwu-toolbar-button[dji-cwu-link-to=suggestions]{background-color:#797979;color:#fff}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar dji-cwu-toolbar-button[dji-cwu-link-to=suggestions]:after{content:"123"}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=type]>dji-cwu-toolbar dji-cwu-toolbar-button[dji-cwu-link-to=suggestions] span{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]{background-color:var(--dji-cwu-main-background-color);height:135px;width:240px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]{bottom:calc(var(--dji-cwu-main-view-horizontal-height) + 4px);box-shadow:0 0 6px 1px var(--dji-cwu-main-container-box-shadow-color-1),0 2px 6px 1px var(--dji-cwu-main-container-box-shadow-color-2);position:absolute;right:calc(4px - var(--dji-cwu-tab-view-toolbar-horizontal-width))}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane{box-sizing:border-box;display:grid;grid-template-columns:1fr 2fr 1fr}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-toolbar{--dji-cwu-this-height:59px;background-color:var(--dji-cwu-main-color);box-shadow:-5px 0 transparent,5px 0 transparent,0 5px 5px 0 var(--dji-cwu-speech-recognition-toolbar-box-shadow-color);box-sizing:border-box;color:var(--dji-cwu-fourth-color);display:none;font-size:16px;grid-template-columns:1fr 1fr;height:var(--dji-cwu-this-height);line-height:var(--dji-cwu-this-height);max-height:var(--dji-cwu-this-height);min-height:var(--dji-cwu-this-height);position:relative;text-align:center;width:100%}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-icon[dji-cwu-role=read]{border-radius:50%;box-shadow:0 3px 8px 1px var(--dji-cwu-speech-recognition-icon-box-shadow-color);box-sizing:border-box;color:var(--dji-cwu-talking-word-processor-main-color);cursor:pointer;font-size:24px;height:74px;line-height:74px;margin:30px auto;text-align:center;width:74px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-icon[disabled]{color:var(--dji-cwu-disabled-color);cursor:default;pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-back-control{align-content:center;align-items:center;display:flex;flex-direction:column;justify-content:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-back-control>dji-cwu-icon[dji-cwu-role=speech-back]{box-sizing:border-box;color:var(--dji-cwu-talking-word-processor-main-color);cursor:pointer;font-size:32px;margin:50px auto 6px;text-align:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control{align-content:center;align-items:center;display:flex;flex-direction:column;justify-content:flex-end}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control[dji-cwu-state=disabled]{pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control>dji-cwu-speech-rate-box{align-items:center;border:4px solid #000;border-radius:7%;color:var(--dji-cwu-talking-word-processor-main-color);display:flex;font-size:12px;height:18px;justify-content:center;margin:0;text-align:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control[dji-cwu-state=disabled]>dji-cwu-speech-rate-box{border:4px solid gray;color:gray}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control>dji-cwu-speech-rate-box>span{margin:2px 6px;text-align:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control>dji-cwu-icon[dji-cwu-role^=speech-rate]{background-color:#8c8c8c;border-radius:50%;box-sizing:border-box;color:#fff;cursor:pointer;font-size:16px;margin:6px auto;text-align:center;visibility:hidden}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-speech-rate-control:hover>dji-cwu-icon[dji-cwu-role^=speech-rate]{visibility:visible}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]{background-color:var(--dji-cwu-main-background-color);width:180px}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]{bottom:calc(var(--dji-cwu-main-view-horizontal-height) + 4px);box-shadow:0 0 6px 1px var(--dji-cwu-main-container-box-shadow-color-1),0 2px 6px 1px var(--dji-cwu-main-container-box-shadow-color-2);position:absolute;right:calc(4px - var(--dji-cwu-tab-view-toolbar-horizontal-width))}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-error-pane{background-color:var(--dji-cwu-main-background-color);box-sizing:border-box;color:var(--dji-cwu-third-color);display:none;font-size:16px;height:100%;left:0;line-height:20px;padding:24px 16px;position:absolute;top:0;width:100%}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition][dji-cwu-error]{height:200px;width:400px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition][dji-cwu-error]>dji-cwu-error-pane{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start safe}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-error-pane>dji-cwu-h2{color:var(--dji-cwu-second-color);font-weight:400}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition] dji-cwu-button-container{align-items:flex-end;display:flex;flex-direction:column;justify-content:flex-end safe;margin:20px;width:100%}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition] dji-cwu-button{color:var(--dji-cwu-main-color);cursor:pointer;display:inline-block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane{box-sizing:border-box;display:grid;grid-template-rows:1fr}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-toolbar{--dji-cwu-this-height:59px;background-color:var(--dji-cwu-main-color);box-shadow:-5px 0 transparent,5px 0 transparent,0 5px 5px 0 var(--dji-cwu-speech-recognition-toolbar-box-shadow-color);box-sizing:border-box;color:var(--dji-cwu-fourth-color);display:none;font-size:16px;grid-template-columns:1fr 1fr;height:var(--dji-cwu-this-height);line-height:var(--dji-cwu-this-height);max-height:var(--dji-cwu-this-height);min-height:var(--dji-cwu-this-height);position:relative;text-align:center;width:100%}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane[dji-cwu-options=multiple-languages]>dji-cwu-toolbar{display:grid}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-toolbar>dji-cwu-toolbar-button{border-bottom:4px solid transparent;box-sizing:border-box;cursor:pointer;height:59px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-toolbar>dji-cwu-toolbar-button[dji-cwu-active]{border-bottom-color:var(--dji-cwu-first-active-color);color:var(--dji-cwu-main-complementary-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-toolbar>dji-cwu-toolbar-button>dji-cwu-icon{font-size:20px;font-weight:inherit;height:57px;line-height:53px;margin-left:-3px;margin-right:-3px;vertical-align:middle;width:20px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-info{box-sizing:border-box;font-size:14px;line-height:36px;margin-top:10px;text-align:center}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-icon{border-radius:50%;box-shadow:0 3px 8px 1px var(--dji-cwu-speech-recognition-icon-box-shadow-color);box-sizing:border-box;color:var(--dji-cwu-main-color);cursor:pointer;font-size:24px;height:74px;line-height:74px;margin:15px auto 30px;text-align:center;width:74px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-icon[disabled]{color:var(--dji-cwu-disabled-color);cursor:default;pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-icon[dji-cwu-state=active]{background-color:var(--dji-cwu-main-color);color:var(--dji-cwu-main-complementary-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane>dji-cwu-icon[dji-cwu-state=pulse]{animation:dji-speech-recognition-pulse-anination 4s infinite;animation-direction:alternate;background-color:var(--dji-cwu-main-color);box-shadow:0 0 0 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-0-1),0 3px 3px 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-0-2);color:var(--dji-cwu-main-complementary-color)}@keyframes dji-speech-recognition-pulse-anination{0%{box-shadow:0 0 0 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-0-1),3px 6px 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-0-2)}50%{box-shadow:0 0 0 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-50-1),3px 6px 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-50-2)}to{box-shadow:0 0 0 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-100-1),3px 6px 12px var(--dji-cwu-speech-recognition-icon-box-shadow-color-100-2)}}[dji-horizontal-layout] dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]{background-color:var(--dji-cwu-main-background-color);bottom:calc(var(--dji-cwu-main-view-horizontal-height) + 4px);box-shadow:0 0 6px 1px var(--dji-cwu-main-container-box-shadow-color-1),0 2px 6px 1px var(--dji-cwu-main-container-box-shadow-color-2);position:absolute;right:-80px;width:300px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box{background-color:var(--dji-cwu-search-box-bkgnd-color);box-sizing:border-box;display:block;height:50px;position:relative;width:300px;z-index:1}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[disabled]{background-color:var(--dji-cwu-search-box-disabled-bkgnd-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar{grid-column-gap:3px;background-color:var(--dji-cwu-main-background-color);box-sizing:border-box;color:var(--dji-cwu-third-color);display:grid;grid-template-columns:40px 1fr 40px;height:calc(100% - 10px);left:5px;line-height:calc(100% - 10px);position:relative;top:5px;width:calc(100% - 10px)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>input{width:100%!important}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon{height:32px;line-height:32px;margin:auto;width:32px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role]{cursor:pointer;display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role]:not([disabled]):hover{background-color:var(--dji-cwu-hover-color)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role][disabled]{cursor:default;opacity:.5;pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role=start_speak]{display:inline-block}@supports (-ms-high-contrast-adjust:auto){dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role=start_speak]{display:none!important}}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-active]>dji-cwu-search-bar>dji-cwu-icon:not([dji-cwu-role]){display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-active]>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role=back]{display:inline-block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-active][dji-cwu-speech-recognition]>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role=start_speak]{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-active][dji-cwu-speech-recognition]>dji-cwu-search-bar>dji-cwu-icon[dji-cwu-role=stop_speak]{display:inline-block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>input:not(:placeholder-shown)~dji-cwu-icon[dji-cwu-role=start_speak]{display:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>input:not(:placeholder-shown)~dji-cwu-icon[dji-cwu-role=clear]{display:inline-block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>input{border:none!important;box-sizing:border-box!important;color:var(--dji-cwu-second-color)!important;font-size:14px!important;line-height:40px!important;margin:0!important;padding:0 5px!important}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-speech-recognition]>dji-cwu-search-bar>input{pointer-events:none!important;user-select:none!important}dji-cwu-main-view[dji-cwu-update-topics]:not([dji-cwu-update-topics=too-many-active]):not([dji-cwu-update-topics=on-off])>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box>dji-cwu-search-bar>input{font-size:20px!important;font-weight:400!important;user-select:none!important}dji-cwu-search-box>dji-cwu-search-results{background-color:var(--dji-cwu-main-complementary-color);border-top:1px solid var(--dji-cwu-separator-color);box-shadow:0 2px 1px 0 var(--dji-cwu-main-container-box-shadow-color-2);box-sizing:border-box;display:none;height:295px;height:calc(295px - var(--dji-cwu-main-view-horizontal-height));left:5px;overflow-y:auto;position:absolute;top:45px;width:calc(100% - 10px)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-search-box[dji-cwu-active][dji-cwu-input]>dji-cwu-search-results,dji-cwu-search-box[dji-cwu-active][dji-cwu-expanded]>dji-cwu-search-results{display:block}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group{display:block;padding:0 0 0 62px;position:relative}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group:before{box-sizing:border-box;color:var(--dji-cwu-suggestion-elem-label-color);content:"";cursor:default;display:block;left:10px;line-height:40px;position:absolute;text-align:left;top:8px}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group[dji-cwu-icon=bookmark]:before{background:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/sprite/cw/bookmark.svg) 0 0 no-repeat;background-repeat:no-repeat;height:24px;width:24px}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group[dji-cwu-icon=language]:before{zoom:1.1;background:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/sprite/cw/language.svg) 0 0 no-repeat;background-repeat:no-repeat;height:24px;width:24px}dji-cwu-main-view[dji-cwu-update-topics] dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group,dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group:empty{display:none}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group>dji-cwu-topic{box-sizing:border-box;cursor:pointer;display:block;font-size:14px;height:40px;line-height:40px;margin-top:1px;overflow:hidden;padding:0 10px 0 8px;text-overflow:ellipsis;white-space:nowrap}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group>dji-cwu-topic:hover{background-color:var(--dji-cwu-hover-color)}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-search-results-group[dji-cwu-role=dji-cwu-local]:not(:empty)+dji-cwu-search-results-group[dji-cwu-role=dji-cwu-web]>dji-cwu-topic:first-child{border-top:1px solid var(--dji-cwu-separator-color)}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-info-pane{background-color:var(--dji-cwu-main-background-color);bottom:0;box-sizing:border-box;display:none;font-size:14px;left:0;line-height:20px;padding:20px;position:absolute;right:0;text-align:center;top:0}dji-cwu-search-box>dji-cwu-search-results>dji-cwu-info-pane>dji-cwu-div[dji-cwu-role=name]{font-style:italic;font-weight:700;margin-top:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}dji-cwu-main-view dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role^=message-]{display:none}dji-cwu-main-view dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role^=hint-]{bottom:20px;display:none;font-style:italic;left:20px;position:absolute;right:20px}dji-cwu-main-view[dji-cwu-update-topics=activate] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=message-activate],dji-cwu-main-view[dji-cwu-update-topics=create] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=message-create],dji-cwu-main-view[dji-cwu-update-topics=too-many-active] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=message-too-many-active],dji-cwu-main-view[dji-cwu-update-topics=update] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=message-update],dji-cwu-main-view[dji-cwu-update-topics] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics],dji-cwu-search-box[dji-cwu-no-results]>dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-no-results]{display:block}dji-cwu-main-view[dji-cwu-update-topics=too-many-active] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=name]{display:none}dji-cwu-main-view[dji-cwu-update-topics] dji-cwu-search-box>dji-cwu-search-results{overflow:hidden}dji-cwu-main-view[dji-cwu-update-topics]:not([dji-cwu-update-topics=too-many-active])>*{cursor:wait;pointer-events:none}dji-cwu-main-view[dji-cwu-update-topics=create][dji-cwu-update-topics-hint=hint-too-many-active] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=hint-create-too-many-active],dji-cwu-main-view[dji-cwu-update-topics=update][dji-cwu-update-topics-hint=hint-too-many-active] dji-cwu-search-results>dji-cwu-info-pane[dji-cwu-role=info-update-topics]>dji-cwu-div[dji-cwu-role=hint-update-too-many-active]{display:block}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic{grid-column-gap:10px;box-sizing:border-box;color:var(--dji-cwu-second-color);display:grid;font-size:14px;grid-template-columns:233px 32px;height:40px;line-height:40px;padding:0 10px 0 15px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane[disable]>dji-cwu-topic>dji-cwu-label{opacity:.87}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-switch{background-color:transparent;cursor:pointer;display:block;height:20px;margin:auto;position:relative;width:32px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane[disabled]>dji-cwu-topic>dji-cwu-switch{cursor:default;pointer-events:none}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-switch:before{background-color:#c6c5c5;border-radius:6px;color:transparent;content:"x";display:block;font-size:0;height:12px;left:calc(50% - 15px);line-height:0;position:absolute;top:calc(50% - 6px);width:30px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-switch:after{background-color:#f1f1f1;border-radius:50%;box-shadow:0 0 2px 0 rgba(0,0,0,.14),0 2px 2px 0 rgba(0,0,0,.12),0 1px 3px 0 rgba(0,0,0,.2);color:transparent;content:"x";display:block;font-size:0;height:18px;left:calc(50% - 15px);line-height:0;position:absolute;top:calc(50% - 9px);width:18px}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-switch[dji-cwu-on]:before{background-color:#b3e3fa}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane>dji-cwu-topic>dji-cwu-switch[dji-cwu-on]:after{background-color:#008ccd;left:auto;right:calc(50% - 15px)}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane[disabled]>dji-cwu-topic>dji-cwu-switch:before{background-color:#c6c5c5}dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=topics]>dji-cwu-topics-pane[disabled]>dji-cwu-topic>dji-cwu-switch:after{background-color:#f1f1f1}dji-cwu-main-view[dji-cwu-update-topics=on-off]{cursor:wait}dji-cwu-toast{all:initial}dji-cwu-toast *,dji-cwu-toast :after,dji-cwu-toast :before,dji-cwu-toast:after,dji-cwu-toast:before{all:unset}dji-cwu-toast{background-color:transparent;bottom:0;box-sizing:border-box;display:block;height:0;line-height:0;margin:0;padding:0;position:fixed;width:100%;z-index:2147483647!important}dji-cwu-toast>dji-cwu-toast-content{background-color:#000;border-radius:2px;bottom:50px;box-sizing:border-box;color:#fff;display:block;font-family:Roboto,"sans-serif";font-size:14px;font-weight:400;line-height:30px;margin:0 auto;padding:10px 24px;position:relative;user-select:none;width:433px}dji-cwu-toast[dji-cwu-mode=action]>dji-cwu-toast-content{grid-column-gap:48px;display:grid;grid-template-columns:300px 49px;width:444px}dji-cwu-toast>dji-cwu-toast-content>dji-cwu-toast-content-text{display:block;position:relative;width:100%}dji-cwu-toast>dji-cwu-toast-content>dji-cwu-toast-content-action{color:#68efad;cursor:pointer;display:block;font-weight:500;position:relative;width:100%}@media (prefers-color-scheme:dark){dji-cwu-icon i.svg-pause,dji-cwu-icon i.svg-play_arrow,dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-processor-pane>dji-cwu-icon[dji-cwu-role=microphone],dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-icon[dji-cwu-role=read]{filter:invert(1)}dji-cwu-main-view{border:2px solid transparent}}@media (forced-colors:active){dji-cwu-icon i.svg-mic_blue,dji-cwu-icon i.svg-mic_white,dji-cwu-icon i.svg-pause,dji-cwu-icon i.svg-play_arrow,dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-pane[dji-cwu-options=multiple-languages]>dji-cwu-toolbar,dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=speech-recognition]>dji-cwu-speech-recognition-processor-pane>dji-cwu-icon[dji-cwu-role=microphone],dji-cwu-main-view>dji-cwu-main-container>dji-cwu-tab-view>dji-cwu-tab-view-pages>dji-cwu-tab-view-page[dji-cwu-role=talking-word-processor]>dji-cwu-talking-word-processor-pane>dji-cwu-icon[dji-cwu-role=read],dji-cwu-switch{forced-color-adjust:none}}</style><style>div#__CWE_AS_NEEDED_ICON{border:none;display:none;height:16px;position:absolute;width:16px;z-index:-1}div#__CWE_AS_NEEDED_ICON[visible]{display:inline-block;z-index:2147483649!important}</style><style>#dexControlsContainer{background-color:hsla(0,0%,100%,0);height:0;left:-5000px;position:absolute;top:-5000px;width:0;z-index:2147483647!important}#dexControlsContainer.dexFixed{position:fixed}#dexControlsContainer.dexFixed[dji-horizontal-layout]{left:0!important;right:0;width:unset}#dexControlsContainerDragSurface{height:100vh;position:fixed;width:100vw}#dexControlsContainerDragSurface,#dexControlsContainerOverlay{background-color:hsla(0,0%,100%,0);cursor:move!important;display:none;left:0;top:0}#dexControlsContainerOverlay{position:absolute}#dexControlsContainer.dexDragging #dexControlsContainerDragSurface,#dexControlsContainer.dexDragging #dexControlsContainerOverlay,#dexControlsContainer.dexPrepareDragging #dexControlsContainerDragSurface{display:block}#dexControlsContainerBody{background-color:hsla(0,0%,100%,0);height:0;left:0;position:absolute;top:0;transform:translateZ(0);width:0}[dji-horizontal-layout] #dexControlsContainerBody{width:100%}#dexControlsContainer div.dexSeparator{background-color:hsla(0,0%,100%,0);clear:both;height:2px;overflow:hidden;width:1px}#dexControlsContainerMeasurement{display:block;left:-5000px;position:absolute;top:-5000px}#dexControlsContainerMeasurementDivCaret{border-left:1px solid red;margin:0 0 0 -1px;padding:0;width:0}</style><style>#__DJI_CWE_IME_WINDOW{display:none;font-weight:400!important;height:0;margin:0!important;padding:0!important;-webkit-user-select:none!important;width:0}#__DJI_CWE_IME_WINDOW_BODY{background-color:hsla(0,0%,98%,.8);border-radius:7px 7px 7px 7px;box-shadow:0 0 5px rgba(30,30,30,.5);display:table!important;margin:1px 0 0 2px!important;min-height:105px;padding:0 7px!important}#__DJI_CWE_IME_WINDOW_NUMBERHINT{display:table-cell!important;vertical-align:middle}#__DJI_CWE_IME_WINDOW_NUMBERHINT div{height:10px!important;width:6px!important}#__DJI_CWE_IME_WINDOW_GUESSES_CONTAINER{display:table-cell!important}#__DJI_CWE_IME_WINDOW_GUESSES{margin:0;min-height:105px;min-width:100px;padding:0;vertical-align:top}#__DJI_CWE_IME_WINDOW_GUESSES div.guess{cursor:pointer;font-family:sans-serif;font-size:14px;line-height:normal!important;margin:1px 0 0 4px;max-width:300px;min-width:100px;overflow:hidden;padding:0;text-align:left;text-overflow:ellipsis;-o-text-overflow:ellipsis;-webkit-user-select:none!important;white-space:nowrap}#__DJI_CWE_IME_WINDOW_GUESSES div.guess.speech-recognition span{background-image:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/ic_mic_black_24px.svg);background-position:0;background-repeat:no-repeat;background-size:16px 16px;display:inline-block;height:16px;width:16px}#__DJI_CWE_IME_WINDOW_GUESSES[dji-cwe-speech-recognition=true] div.guess.speech-recognition span{background-image:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/ic_mic_off_black_24px.svg)}#__DJI_CWE_MEASUREMENT_WINDOW_CARET{background-color:#e00;border:none;min-height:1px;min-width:1px;position:absolute;-webkit-user-select:none!important;z-index:44447}#__DJI_CWE_MEASUREMENT_WINDOW_GENERIC{display:block;left:-5000px;position:absolute;top:-5000px;-webkit-user-select:none!important}#__DJI_CWE_MEASUREMENT_WINDOW_GENERIC_DIV{-webkit-user-select:none!important}#__DJI_CWE_MEASUREMENT_WINDOW_GENERIC_CARET{border-left:1px solid red;margin:0 0 0 -1px;padding:0;-webkit-user-select:none!important;width:0}#__DJI_CWE_CHROME_GOOGLE_DOCS_PROXY{display:block;left:-5000px;position:absolute;top:-5000px;-webkit-user-select:none!important}div.__dji_cwe_dialog{background-color:#fefefe;box-shadow:0 0 3px rgba(30,30,30,.8);cursor:default;display:none;font-family:sans,sans-serif;font-weight:lighter;margin:200px auto auto;padding-top:0;position:relative!important;-webkit-user-select:none!important;width:300px;z-index:2000}div.__dji_cwe_dialog div.__dji_cwe_dialog_header{background-color:#e7e7e7;border-bottom:1px solid #ccc;clear:both;color:#777;font-size:14px;font-weight:400;height:36px}div.__dji_cwe_dialog div.__dji_cwe_dialog_header div.__dji_cwe_dialog_text{float:left;height:26px;margin:0 10px;overflow:hidden;padding-top:11px;text-overflow:ellipsis;-o-text-overflow:ellipsis;vertical-align:middle;white-space:nowrap;width:240px}div.__dji_cwe_dialog div.__dji_cwe_dialog_header div.__dji_cwe_dialog_close{float:right;padding:0}div.__dji_cwe_dialog div.__dji_cwe_dialog_header div.__dji_cwe_dialog_close button{background-color:#ededed;border:1px solid silver;color:#777;cursor:pointer;font-family:sans,sans-serif;font-size:14px;font-weight:700;height:23px;margin-right:6px;margin-top:6px;outline:none;padding:0 0 2px;text-align:center;width:23px}div.__dji_cwe_dialog div.__dji_cwe_dialog_header div.__dji_cwe_dialog_close button:hover{background-color:#f5f5f5}div.__dji_cwe_dialog div.__dji_cwe_dialog_header div.__dji_cwe_dialog_close button:focus{outline:none}div.__dji_cwe_dialog div.__dji_cwe_dialog_body{font-size:14px;padding:4px 10px 10px;width:280px}div.__dji_cwe_dialog div.__dji_cwe_dialog_body div{margin-bottom:2px;margin-top:6px}div.__dji_cwe_dialog div.__dji_cwe_dialog_footer{border-top:1px solid #ccc;height:40px;text-align:center}div.__dji_cwe_dialog div.__dji_cwe_dialog_footer button{background-color:#ededed;border:1px solid silver;color:#777;cursor:pointer;font-family:sans,sans-serif;font-size:14px;height:32px;margin-top:4px;outline:none;padding:0 20px}div.__dji_cwe_dialog div.__dji_cwe_dialog_footer button:hover{background-color:#f5f5f5}div.__dji_cwe_dialog div.__dji_cwe_dialog_footer button:focus{outline:none}div#__dji_cwe_pleaseWait{background-color:#fafafa;box-shadow:0 0 3px rgba(30,30,30,.8);-webkit-box-sizing:initial!important;color:#0073ff;display:none;font-family:sans-serif;height:60px;margin:200px auto auto;padding:40px 50px;position:relative!important;text-align:center;width:200px}div#__dji_cwe_pleaseWait div#__dji_cwe_pleaseWait_message{font-size:24px}div#__dji_cwe_pleaseWait div#__dji_cwe_pleaseWait_wait{font-size:18px;margin-top:20px}#__DJI_CWE_QUICKTOPIC_WINDOW{background-color:#fafafa;box-shadow:0 0 3px rgba(30,30,30,.8);display:none;font-family:sans-serif;font-size:14px;margin:100px auto auto;position:replative!important;-webkit-user-select:none!important;width:358px}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER{background-color:#e7e7e7;border-bottom:1px solid #ccc;color:#777;font-size:14px;font-weight:400}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER div{height:26px;margin:0 10px;padding-top:11px;vertical-align:middle}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER button{background-color:#ededed;border:1px solid silver;color:#777;cursor:pointer;font-family:sans,sans-serif;font-size:14px;height:24px;margin-top:-4px;outline:none;padding:0 20px}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER button:hover{background-color:#f5f5f5}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER button:focus{outline:none}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER input#__DJI_CWE_QUICKTOPIC_WINDOW_SEARCH_INPUT{-webkit-appearance:none;background-color:#fff;border:0;border-radius:3px 3px 3px 3px;box-shadow:0 0 1px #fff;font-family:sans-serif;font-size:14px;font-weight:400;height:32px;margin:0 10px 4px;outline:none;padding:0 4px;vertical-align:middle;width:338px}#__DJI_CWE_QUICKTOPIC_WINDOW_HEADER input#__DJI_CWE_QUICKTOPIC_WINDOW_SEARCH_INPUT:focus{outline:none}#__DJI_CWE_QUICKTOPIC_WINDOW_CONTENT{cursor:default;height:319px;overflow-y:scroll;padding-left:10px}#__DJI_CWE_QUICKTOPIC_WINDOW_CONTENT div.topic{border-bottom:1px solid #e7e7e7;clear:both;color:#777;cursor:pointer;font-weight:400;height:25px;overflow:hidden;padding-left:4px;padding-top:6px;text-align:left;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap}#__DJI_CWE_QUICKTOPIC_WINDOW_CONTENT div:LAST-CHILD.topic{border-bottom:0}#__DJI_CWE_QUICKTOPIC_WINDOW_FOOTER{font-family:sans-serif;font-size:12px;height:0;line-height:0px;padding:0;-webkit-user-select:none!important}div#__DJI_CWE_BODY_OVERLAY{background-color:hsla(0,0%,8%,.5);cursor:default;display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:2147483640}html[__DJI_CWE_QUICKTOPIC_ACTIVE=true] body,html[__dji_cwe_dialog=true] body,html[__dji_cwe_working=true] body{overflow:hidden}html[__DJI_CWE_QUICKTOPIC_ACTIVE=true] #__DJI_CWE_BODY_OVERLAY,html[__DJI_CWE_QUICKTOPIC_ACTIVE=true] #__DJI_CWE_QUICKTOPIC_WINDOW,html[__dji_cwe_dialog=true] #__DJI_CWE_BODY_OVERLAY,html[__dji_cwe_working=true] #__DJI_CWE_BODY_OVERLAY,html[__dji_cwe_working=true] div#__dji_cwe_pleaseWait{display:block}div.__dji_cwe_clear{clear:both;height:0;overflow:hidden;width:0}#__DJI_CWE_SPEECHRECOGNITION_PERMISSION{background-color:red;border:2px solid red;height:100px;left:-5000px;position:absolute;top:-5000px;width:100px}.dji-x-highlighted{background-color:#ff565b!important;transition:none!important}.dji-x-highlighted.dji-selected{background-color:#c64b4f!important;transition:none!important}</style><style>.svg-account_face{background:url(cw-sprite.svg) 0 0 no-repeat}.svg-account_face-dims{height:24px;width:24px}.svg-add{background:url(cw-sprite.svg) 20% 0 no-repeat}.svg-add-dims{height:24px;width:24px}.svg-add_circle{background:url(cw-sprite.svg) 0 20% no-repeat}.svg-add_circle-dims{height:24px;width:24px}.svg-arrow_back_grey{background:url(cw-sprite.svg) 20% 20% no-repeat}.svg-arrow_back_grey-dims{height:24px;width:24px}.svg-bookmark{background:url(cw-sprite.svg) 40% 0 no-repeat}.svg-bookmark-dims{height:24px;width:24px}.svg-check{background:url(cw-sprite.svg) 40% 20% no-repeat}.svg-check-dims{height:24px;width:24px}.svg-close{background:url(cw-sprite.svg) 0 40% no-repeat}.svg-close-dims{height:24px;width:24px}.svg-developer_mode{background:url(cw-sprite.svg) 20% 40% no-repeat}.svg-developer_mode-dims{height:24px;width:24px}.svg-directions_run{background:url(cw-sprite.svg) 40% 40% no-repeat}.svg-directions_run-dims{height:24px;width:24px}.svg-dji_sign_out{background:url(cw-sprite.svg) 60% 0 no-repeat}.svg-dji_sign_out-dims{height:24px;width:24px}.svg-exit_to_app{background:url(cw-sprite.svg) 60% 20% no-repeat}.svg-exit_to_app-dims{height:24px;width:24px}.svg-format_size{background:url(cw-sprite.svg) 60% 40% no-repeat}.svg-format_size-dims{height:24px;width:24px}.svg-group_add{background:url(cw-sprite.svg) 0 60% no-repeat}.svg-group_add-dims{height:24px;width:24px}.svg-import_contacts{background:url(cw-sprite.svg) 20% 60% no-repeat}.svg-import_contacts-dims{height:24px;width:24px}.svg-import_contacts_white{background:url(cw-sprite.svg) 40% 60% no-repeat}.svg-import_contacts_white-dims{height:24px;width:24px}.svg-language{background:url(cw-sprite.svg) 60% 60% no-repeat}.svg-language-dims{height:24px;width:24px}.svg-lock{background:url(cw-sprite.svg) 80% 0 no-repeat}.svg-lock-dims{height:24px;width:24px}.svg-mic{background:url(cw-sprite.svg) 80% 20% no-repeat}.svg-mic-dims{height:24px;width:24px}.svg-mic_blue{background:url(cw-sprite.svg) 80% 40% no-repeat}.svg-mic_blue-dims{height:24px;width:24px}.svg-mic_off{background:url(cw-sprite.svg) 80% 60% no-repeat}.svg-mic_off-dims{height:24px;width:24px}.svg-mic_white{background:url(cw-sprite.svg) 0 80% no-repeat}.svg-mic_white-dims{height:24px;width:24px}.svg-music_note{background:url(cw-sprite.svg) 20% 80% no-repeat}.svg-music_note-dims{height:24px;width:24px}.svg-pause{background:url(cw-sprite.svg) 40% 80% no-repeat}.svg-pause-dims{height:24px;width:24px}.svg-person_add{background:url(cw-sprite.svg) 60% 80% no-repeat}.svg-person_add-dims{height:24px;width:24px}.svg-play_arrow{background:url(cw-sprite.svg) 80% 80% no-repeat}.svg-play_arrow-dims{height:24px;width:24px}.svg-power_settings_new{background:url(cw-sprite.svg) 100% 0 no-repeat}.svg-power_settings_new-dims{height:24px;width:24px}.svg-read{background:url(cw-sprite.svg) 100% 20% no-repeat}.svg-read-dims{height:24px;width:24px}.svg-read_white{background:url(cw-sprite.svg) 100% 40% no-repeat}.svg-read_white-dims{height:24px;width:24px}.svg-remove_circle{background:url(cw-sprite.svg) 100% 60% no-repeat}.svg-remove_circle-dims{height:24px;width:24px}.svg-search{background:url(cw-sprite.svg) 100% 80% no-repeat}.svg-search-dims{height:24px;width:24px}.svg-selected_text{background:url(cw-sprite.svg) 0 100% no-repeat}.svg-selected_text-dims{height:24px;width:24px}.svg-settings{background:url(cw-sprite.svg) 20% 100% no-repeat}.svg-settings-dims{height:24px;width:24px}.svg-speech_back{background:url(cw-sprite.svg) 40% 100% no-repeat}.svg-speech_back-dims{height:24px;width:24px}.svg-translate{background:url(cw-sprite.svg) 60% 100% no-repeat}.svg-translate-dims{height:24px;width:24px}.svg-volume_up{background:url(cw-sprite.svg) 80% 100% no-repeat}.svg-volume_up-dims{height:24px;width:24px} .dji-svg-icon{background-image:url(chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/sprite/cw/cw-sprite.svg);background-repeat:no-repeat;display:inline-block;height:24px;width:24px}</style><div id="dexControlsContainer"><div id="dexControlsContainerDragSurface"></div><div id="dexControlsContainerBody"><dji-cwu-main-view id="DJI-CWU-MAIN-VIEW-1727234382742" dji-cwu-hidden="" dji-cwu-mode="type" style="--dji-cwu-opt-suggestion-elem-count: 5;">
+            <dji-cwu-main-container>
+                <dji-cwu-tab-view>
+                    <dji-cwu-tab-view-pages>
+                        <dji-cwu-tab-view-page dji-cwu-role="talking-word-processor">
+                            <dji-cwu-talking-word-processor-pane>
+                                <dji-cwu-toolbar>
+                                    <dji-cwu-toolbar-button dji-accessible="" dji-i18n-title="cwu_guess_window_read" dji-cwu-active="" title="Read"></dji-cwu-toolbar-button>
+                                </dji-cwu-toolbar>
+                                <dji-cwu-speech-back-control>
+                                    <dji-cwu-icon dji-accessible="" dji-cwu-role="speech-back" dji-cwu-src="speech_back" dji-cwu-state="idle"><i class="dji-svg-icon svg-speech_back"></i></dji-cwu-icon>
+                                </dji-cwu-speech-back-control>
+                                <dji-cwu-icon dji-accessible="" dji-cwu-role="read" dji-cwu-src="play_arrow" dji-cwu-state="idle"><i class="dji-svg-icon svg-play_arrow"></i></dji-cwu-icon>
+                                <dji-cwu-speech-rate-control>
+                                    <dji-cwu-icon dji-accessible="" dji-cwu-role="speech-rate-plus" dji-cwu-src="faster" dji-cwu-state="idle"><i class="dji-svg-icon svg-add_circle"></i></dji-cwu-icon>
+                                    <dji-cwu-speech-rate-box><span>1x</span></dji-cwu-speech-rate-box>
+                                    <dji-cwu-icon dji-accessible="" dji-cwu-role="speech-rate-minus" dji-cwu-src="slower" dji-cwu-state="idle"><i class="dji-svg-icon svg-remove_circle"></i></dji-cwu-icon>
+                                
+                            </dji-cwu-speech-rate-control></dji-cwu-talking-word-processor-pane>
+                            <dji-cwu-error-pane>
+                                <dji-cwu-h2 class="error-title"></dji-cwu-h2>
+                                <dji-cwu-div class="error-message"></dji-cwu-div>
+                                <dji-cwu-button-container>
+                                    <dji-cwu-button class="error-button" dji-accessible="" dji-cwu-link-to="dismiss" dji-i18n-title="cwu_guess_window_ok" dji-cwu-active="" title="Ok"><span dji-i18n="cwu_guess_window_ok">Ok</span></dji-cwu-button>
+                                </dji-cwu-button-container>
+                            </dji-cwu-error-pane>
+                        </dji-cwu-tab-view-page>
+                        <dji-cwu-tab-view-page dji-cwu-role="type" dji-cwu-active="">
+                            <dji-cwu-suggestions-pane dji-cwu-role="suggestions" dji-cwu-active="">
+                                <dji-cwu-guesses-pane dji-cwu-hidden=""></dji-cwu-guesses-pane>
+                                <dji-cwu-translations-pane dji-cwu-hidden="">
+                                    <dji-cwu-icon-hr></dji-cwu-icon-hr>
+                                    
+                                </dji-cwu-translations-pane>
+                            </dji-cwu-suggestions-pane>
+                            <dji-cwu-keyboard-pane dji-cwu-role="keyboard">
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="1">1</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="2">2</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="3">3</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="4">4</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="5">5</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="6">6</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="7">7</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="8">8</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="9">9</dji-cwu-keyboard-key>
+                                <dji-cwu-keyboard-key dji-accessible="" dji-cwu-data="0">0</dji-cwu-keyboard-key>
+                                <dji-cwu-separator></dji-cwu-separator>
+                            </dji-cwu-keyboard-pane>
+                            <dji-cwu-toolbar>
+                                <dji-cwu-toolbar-button dji-accessible="" dji-cwu-link-to="suggestions" dji-i18n-title="cwu_guess_window_guesses" dji-cwu-active="" title="Show guesses"><span>abc</span></dji-cwu-toolbar-button>
+                                <dji-cwu-toolbar-button dji-accessible="" dji-cwu-link-to="keyboard" dji-i18n-title="cwu_guess_window_numeric_keyboard" title="Show numeric keyboard">123</dji-cwu-toolbar-button>
+                            </dji-cwu-toolbar>
+                        </dji-cwu-tab-view-page>
+                        <dji-cwu-tab-view-page dji-cwu-role="topics">
+                            <dji-cwu-search-box>
+                                <dji-cwu-search-bar>
+                                    <dji-cwu-icon dji-cwu-src="search" dji-cwu-shape-round=""><i class="dji-svg-icon svg-search"></i></dji-cwu-icon>
+                                    <dji-cwu-icon dji-accessible="5" dji-accessible-no-focus="" dji-cwu-src="arrow_back" dji-cwu-role="back" dji-cwu-shape-round=""><i class="dji-svg-icon svg-arrow_back_grey"></i></dji-cwu-icon>
+                                    <input type="text" dji-accessible="1" dji-accessible-no-focus="" dji-i18n-placeholder="cwu_search_topic_placeholder" dji-cwu-no-prediction="" dji-non-draggable="" dji-dex-ignore-editor="" placeholder="Search for topic">
+                                    <dji-cwu-icon dji-accessible="2" dji-accessible-no-focus="" dji-cwu-src="mic" dji-cwu-role="start_speak" dji-cwu-shape-round=""><i class="dji-svg-icon svg-mic"></i></dji-cwu-icon>
+                                    <dji-cwu-icon dji-accessible="3" dji-accessible-no-focus="" dji-cwu-src="mic_off" dji-cwu-role="stop_speak" dji-cwu-shape-round=""><i class="dji-svg-icon svg-mic_off"></i></dji-cwu-icon>
+                                    <dji-cwu-icon dji-accessible="4" dji-accessible-no-focus="" dji-cwu-src="close" dji-cwu-role="clear" dji-cwu-shape-round=""><i class="dji-svg-icon svg-close"></i></dji-cwu-icon>
+                                </dji-cwu-search-bar>
+                                <dji-cwu-search-results>
+                                    <dji-cwu-search-results-group dji-cwu-role="dji-cwu-local" dji-cwu-icon="bookmark"><i class="dji-svg-icon svg-bookmark"></i>
+                                        <dji-cwu-topic>American's Cup</dji-cwu-topic>
+                                        <dji-cwu-topic>American Heart Association</dji-cwu-topic>
+                                        <dji-cwu-topic>American Library Association</dji-cwu-topic>
+                                        <dji-cwu-topic>America (United States)</dji-cwu-topic>
+                                        <dji-cwu-topic>Amblyseius</dji-cwu-topic>
+                                        <dji-cwu-topic>American's Cup</dji-cwu-topic>
+                                        <dji-cwu-topic>American Heart Association</dji-cwu-topic>
+                                        <dji-cwu-topic>American Library Association</dji-cwu-topic>
+                                        <dji-cwu-topic>America (United States)</dji-cwu-topic>
+                                        <dji-cwu-topic>Amblyseius</dji-cwu-topic>
+                                    </dji-cwu-search-results-group>
+                                    <dji-cwu-search-results-group dji-cwu-role="dji-cwu-web" dji-cwu-icon="language"><i class="dji-svg-icon svg-language"></i>
+                                        <dji-cwu-topic>American's Cup</dji-cwu-topic>
+                                        <dji-cwu-topic>American Heart Association</dji-cwu-topic>
+                                        <dji-cwu-topic>American Library Association</dji-cwu-topic>
+                                        <dji-cwu-topic>America (United States)</dji-cwu-topic>
+                                        <dji-cwu-topic>Amblyseius</dji-cwu-topic>
+                                        <dji-cwu-topic>American's Cup</dji-cwu-topic>
+                                        <dji-cwu-topic>American Heart Association</dji-cwu-topic>
+                                        <dji-cwu-topic>American Library Association</dji-cwu-topic>
+                                        <dji-cwu-topic>America (United States)</dji-cwu-topic>
+                                        <dji-cwu-topic>Amblyseius</dji-cwu-topic>
+                                    </dji-cwu-search-results-group>
+                                    <dji-cwu-info-pane dji-cwu-role="info-no-results">
+                                        <dji-cwu-div dji-cwu-role="message" dji-i18n="cwu_guess_window_no_result">No result found matching</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="name">[pattern]</dji-cwu-div>
+                                    </dji-cwu-info-pane>
+                                    <dji-cwu-info-pane dji-cwu-role="info-update-topics">
+                                        <dji-cwu-div dji-cwu-role="message-too-many-active" dji-i18n-html="cwu_guess_window_message_too_many_active">You may have at most 6 active topics!<br>The new topic cannot be activated!</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="message-activate" dji-i18n-html="cwu_guess_window_message_activate">Please wait while we<br>activate the topic</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="message-update" dji-i18n-html="cwu_guess_window_message_update">Please wait while we<br>update the topic</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="message-create" dji-i18n-html="cwu_guess_window_message_create">Please wait while we<br>create the topic</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="name">[topic_name]</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="hint-update-too-many-active" dji-i18n-html="cwu_guess_window_hint_update_too_many_active">You may have at most 6 active topics!<br>The new topic will be updated but cannot be activated!</dji-cwu-div>
+                                        <dji-cwu-div dji-cwu-role="hint-create-too-many-active" dji-i18n-html="cwu_guess_window_hint_create_too_many_active">You may have at most 6 active topics!<br>The new topic will be created but cannot be activated!</dji-cwu-div>
+                                    </dji-cwu-info-pane>
+                                </dji-cwu-search-results>
+                            </dji-cwu-search-box>
+                            <dji-cwu-topics-pane>
+                                <dji-cwu-topic><dji-cwu-label>Albert Einstein</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                                <dji-cwu-topic><dji-cwu-label>Global Warming</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                                <dji-cwu-topic><dji-cwu-label>William Shakespeare</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                                <dji-cwu-topic><dji-cwu-label>Aquarium Visit</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                                <dji-cwu-topic><dji-cwu-label>Compare and Contrast</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                                <dji-cwu-topic><dji-cwu-label>Tsunamis &amp; Tidal Waves</dji-cwu-label><dji-cwu-switch></dji-cwu-switch></dji-cwu-topic>
+                            </dji-cwu-topics-pane>
+                        </dji-cwu-tab-view-page>
+                        <dji-cwu-tab-view-page dji-cwu-role="speech-recognition">
+                            <dji-cwu-speech-recognition-pane>
+                                <dji-cwu-toolbar>
+                                    <dji-cwu-toolbar-button dji-accessible="">EN</dji-cwu-toolbar-button>
+                                    <dji-cwu-toolbar-button dji-accessible="">
+                                        <dji-cwu-span dji-cwu-role="source">RO</dji-cwu-span>
+                                        <dji-cwu-icon dji-cwu-src="chevron_right"></dji-cwu-icon>
+                                        <dji-cwu-span dji-cwu-role="target">EN</dji-cwu-span>
+                                    </dji-cwu-toolbar-button>
+                                </dji-cwu-toolbar>
+                                <dji-cwu-info dji-i18n="cwu_guess_window_start_stt">Click for speech to text</dji-cwu-info>
+                                <dji-cwu-icon dji-accessible="" dji-cwu-role="microphone" dji-cwu-state="idle"><i class="dji-svg-icon svg-mic_blue"></i></dji-cwu-icon>
+                            </dji-cwu-speech-recognition-pane>
+                            <dji-cwu-error-pane>
+                                <dji-cwu-h2 class="error-title"></dji-cwu-h2>
+                                <dji-cwu-div class="error-message"></dji-cwu-div>
+                                <dji-cwu-button-container>
+                                    <dji-cwu-button class="error-button" dji-accessible="" dji-cwu-link-to="dismiss" dji-i18n-title="cwu_guess_window_ok" dji-cwu-active="" title="Ok"><span dji-i18n="cwu_guess_window_ok">Ok</span></dji-cwu-button>
+                                </dji-cwu-button-container>
+                            </dji-cwu-error-pane>
+                        </dji-cwu-tab-view-page>
+                    </dji-cwu-tab-view-pages>
+                    <dji-cwu-tab-view-toolbar>
+                        <dji-cwu-tab-view-toolbar-button dji-cwu-link-to="type" title="Type" dji-accessible="" dji-cwu-active="">
+                            <dji-cwu-icon><i class="dji-svg-icon svg-read"></i></dji-cwu-icon>
+                            <dji-cwu-label dji-i18n="cwu_guess_window_type">Type</dji-cwu-label>
+                        </dji-cwu-tab-view-toolbar-button>
+                        <dji-cwu-tab-view-toolbar-button dji-cwu-link-to="talking-word-processor" dji-i18n-title="cwu_guess_window_read" dji-accessible="" title="Read">
+                            <dji-cwu-icon><i class="dji-svg-icon svg-read"></i></dji-cwu-icon>
+                            <dji-cwu-label dji-i18n="cwu_guess_window_read">Read</dji-cwu-label>
+                        </dji-cwu-tab-view-toolbar-button>
+                        <dji-cwu-tab-view-toolbar-button dji-cwu-link-to="topics" dji-i18n-title="cwu_guess_window_manage_topics" dji-accessible="" title="Manage topics">
+                            <dji-cwu-icon><i class="dji-svg-icon svg-import_contacts"></i></dji-cwu-icon>
+                            <dji-cwu-label dji-i18n="cwu_guess_window_topic">Topic</dji-cwu-label>
+                        </dji-cwu-tab-view-toolbar-button>
+                        <dji-cwu-tab-view-toolbar-button dji-cwu-link-to="speech-recognition" dji-i18n-title="cwu_guess_window_stt" dji-accessible="" title="Speech-to-text">
+                            <dji-cwu-icon><i class="dji-svg-icon svg-mic"></i></dji-cwu-icon>
+                            <dji-cwu-label dji-i18n="cwu_guess_window_speak">Speak</dji-cwu-label>
+                        </dji-cwu-tab-view-toolbar-button>
+                    </dji-cwu-tab-view-toolbar>
+                </dji-cwu-tab-view>
+            </dji-cwu-main-container>
+        </dji-cwu-main-view></div><div id="dexControlsContainerOverlay"></div></div><div id="dexControlsContainerMeasurement"><div id="dexControlsContainerMeasurementDiv"></div></div><div id="__CWE_AS_NEEDED_ICON" style="background-image: url(&quot;chrome-extension://ifajfiofeifbbhbionejdliodenmecna/Graphics/cw_as_needed_icon.svg&quot;);"></div><div id="__DJI_CWE_MEASUREMENT_WINDOW_GENERIC"><div id="__DJI_CWE_MEASUREMENT_WINDOW_GENERIC_DIV"></div></div></template></dji-cowriter></html>
