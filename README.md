@@ -49,19 +49,17 @@ TrafficCongestionWithAI/
 
 📊 Research Highlights
 
-    87% Accuracy in detecting traffic markings (arrows, crosswalks, etc.)
+87% Accuracy in detecting traffic markings (arrows, crosswalks, etc.)
 
-    Dynamic Scoring System for solutions (weights cost, safety, impact)
-
-    Case Studies in simulated urban environments (link your PDFs here)
+Dynamic Scoring System for solutions (weights cost, safety, impact)
 
 🎯 Future Work
 
-    Integrate real-time traffic camera feeds
+Integrate real-time traffic camera feeds
 
-    Add support for pedestrian flow analysis
+Add support for pedestrian flow analysis
 
-    Deploy as a web app (Flask/Django)
+Deploy as a web app (Flask/Django)
 
 🤝 Contribute
 
@@ -74,6 +72,6 @@ Open to collaborations! Submit:
 
 Farooq Anwar
 
-    Email: fmanwar3710@gmail.com
+Email: fmanwar3710@gmail.com
 
-    GitHub: @KingFarooq
+GitHub: @KingFarooq
