@@ -1,77 +1,40 @@
-🚦 AI-Powered Traffic Congestion Analysis & Optimization
+# Traffic Congestion Analysis & Intervention Visualization
 
-A year-long research project using computer vision and urban planning principles to reduce traffic congestion.
+A research prototype that combines multi-label road-marking recognition, survey-driven congestion categorization, constraint-filtered intervention ranking, and schematic visualization. Developed between March and July 2025 as an exploration of peak-hour traffic near a school campus, and later subjected to a reproducibility audit that is available as an arXiv preprint.
 
-📌 Key Features
+**Status:** Proof of concept. Not a validated traffic-management system. See [Known issues](#known-issues) and the paper for the full audit.
 
-✅ 20+ Traffic Element Detection (Arrows, lines, crosswalks, etc.)
-✅ Congestion Scoring Algorithm (Based on road capacity, speed, and markings)
-✅ 40+ Customizable Restrictions (No construction zones, policy limits, etc.)
-✅ Solution Recommender (Prioritizes fixes by cost, impact, and safety)
-✅ Visualization Engine (Shows proposed road modifications)
-🛠️ Technical Stack
-Component	Technology Used
-Computer Vision	OpenCV, TensorFlow/Keras (CNN)
-Backend	Python 3.8+
-Data Processing	NumPy, Pandas
-Visualization	Matplotlib, PIL
-🚀 Quick Start
-1. Clone the Repository
-bash
+---
 
+## What this project is
+
+The prototype has four independent modules:
+
+1. **Recognition** — A compact convolutional neural network (CNN) trained on 76 annotated aerial-map screenshots. Detects 20 road-marking classes (arrows, stop lines, crosswalks, lane markings) as **image-level** multi-label outputs. Not object detection; not segmentation.
+
+2. **Congestion index** — A user-supplied survey (lane count, current vehicles, capacity, average speed, peak periods, special events) produces an additive score `C` categorized as *Not Congested*, *Congested*, or *Severely Congested*.
+
+3. **Intervention ranking** — A library of 30 physical, operational, and policy interventions is filtered against user-selected restrictions and ranked by hand-assigned impact, safety, and cost values.
+
+4. **Visualization** — Schematic overlays (fixed, image-relative rectangles and circles) are drawn on the input image to illustrate the top-ranked interventions.
+
+The four modules produce a combined report. **Important:** the recognition module's output does not influence the recommendation module's output — the classifier's predictions appear in the report but never reach the ranking logic. This is one of the audit findings documented in the paper; see [Known issues](#known-issues).
+
+---
+
+## What this project is not
+
+- **Not a validated traffic model.** The congestion index and intervention ranking are heuristics. The weights (0.5 occupancy, 0.3 speed, 0.1 peak period, 0.1 special events) and the impact/safety/cost values in the intervention library are hand-assigned design inputs, not estimates derived from traffic observations.
+- **Not a detection or segmentation system.** The classifier predicts whether a marking class is *present in an image*. It does not localize markings, measure their geometry, or extract lane boundaries.
+- **Not deployment-ready.** The overlays are schematic communication aids drawn at fixed image positions. They are not engineering drawings and do not encode road geometry.
+- **Not a mitigation tool.** No before–after studies, simulations, or field measurements were conducted. The prototype has not been shown to reduce congestion, delay, or crash risk.
+
+---
+
+## Quick start
+
+```bash
 git clone https://github.com/KingFarooq/TrafficCongestionWithAI.git
 cd TrafficCongestionWithAI
-
-2. Install Dependencies
-bash
-
-pip install -r requirements.txt  # If you have a requirements file
-# OR manually:
 pip install tensorflow opencv-python numpy matplotlib pillow
-
-3. Run the System
-bash
-
 python main.py
-
-(Follow prompts to input road data and test images)
-📂 Project Structure
-
-TrafficCongestionWithAI/
-├── Real Model/
-│   ├── Images/           # Training dataset
-│   ├── Annotations/      # XML labels for object detection
-│   └── Test Images/      # Your road images to analyze
-├── trained_model.keras   # Pre-trained CNN model
-├── main.py               # Core application
-├── sample_output.jpg     # Example visualization
-└── docs/                 # Research papers, presentations (optional)
-
-📊 Research Highlights
-
-87% Accuracy in detecting traffic markings (arrows, crosswalks, etc.)
-
-Dynamic Scoring System for solutions (weights cost, safety, impact)
-
-🎯 Future Work
-
-Integrate real-time traffic camera feeds
-
-Add support for pedestrian flow analysis
-
-Deploy as a web app (Flask/Django)
-
-🤝 Contribute
-
-Open to collaborations! Submit:
-🔹 Bug reports (GitHub Issues)
-🔹 Feature requests
-🔹 Pull requests
-
-✉️ Contact
-
-Farooq Anwar
-
-Email: fmanwar3710@gmail.com
-
-GitHub: @KingFarooq
