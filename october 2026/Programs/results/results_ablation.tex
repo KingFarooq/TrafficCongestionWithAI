@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Out-of-fold ROC-AUC (95\% percentile-bootstrap CI over images).}
+\begin{tabular}{lcccccc}
+\toprule
+Model & Left Turn Arrow & Right Turn Arrow & Stop Line & Solid White Line & Double Solid Yellow Line & Macro \\
+\midrule
+EfficientNetV2S, head-only, label-swap flip  (main) & 0.67 [0.56, 0.76] & 0.73 [0.65, 0.82] & 0.67 [0.56, 0.77] & 0.77 [0.68, 0.86] & 0.58 [0.46, 0.70] & 0.68 [0.63, 0.73] \\
+EfficientNetV2S + NAIVE flip (arrow labels not swapped) & 0.62 [0.52, 0.72] & 0.71 [0.60, 0.81] & 0.64 [0.53, 0.75] & 0.75 [0.66, 0.84] & 0.58 [0.47, 0.71] & 0.66 [0.60, 0.72] \\
+EfficientNetV2S, no horizontal flip & 0.67 [0.57, 0.76] & 0.73 [0.63, 0.82] & 0.67 [0.56, 0.77] & 0.76 [0.66, 0.85] & 0.57 [0.46, 0.69] & 0.68 [0.62, 0.73] \\
+EfficientNetV2S + Phase-2 fine-tune (top 10 layers) & 0.67 [0.55, 0.77] & 0.73 [0.64, 0.81] & 0.69 [0.57, 0.78] & 0.77 [0.67, 0.85] & 0.61 [0.50, 0.72] & 0.69 [0.63, 0.75] \\
+EfficientNetV2S + Phase-2 fine-tune (top 50 layers) & 0.67 [0.56, 0.76] & 0.69 [0.60, 0.77] & 0.69 [0.58, 0.77] & 0.78 [0.69, 0.86] & 0.57 [0.45, 0.69] & 0.68 [0.62, 0.73] \\
+Baseline: class prevalence & 0.50 [0.50, 0.50] & 0.50 [0.50, 0.50] & 0.50 [0.50, 0.50] & 0.50 [0.50, 0.50] & 0.50 [0.50, 0.50] & 0.50 [0.50, 0.50] \\
+Baseline: HOG + logistic regression & 0.57 [0.45, 0.69] & 0.58 [0.46, 0.71] & 0.66 [0.54, 0.77] & 0.70 [0.59, 0.80] & 0.71 [0.56, 0.84] & 0.65 [0.57, 0.71] \\
+Baseline: frozen EfficientNetV2S features + logistic regression & 0.79 [0.68, 0.87] & 0.68 [0.56, 0.79] & 0.74 [0.62, 0.84] & 0.82 [0.72, 0.91] & 0.66 [0.52, 0.80] & 0.74 [0.67, 0.79] \\
+\bottomrule
+\end{tabular}
+\end{table}

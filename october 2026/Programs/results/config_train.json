@@ -1,0 +1,82 @@
+{
+  "tag": "train",
+  "timestamp": "2026-10-31T16:24:29",
+  "command_line": [
+    "image_processing_pipeline.py",
+    "--mode",
+    "train"
+  ],
+  "classes": [
+    "Left Turn Arrow",
+    "Right Turn Arrow",
+    "Stop Line",
+    "Solid White Line",
+    "Double Solid Yellow Line"
+  ],
+  "class_aliases": {
+    "Stopline": "Stop Line",
+    "Stright, Left Arrow": "Left Turn Arrow",
+    "Straight, Left Turn Arrow": "Left Turn Arrow"
+  },
+  "hyperparameters": {
+    "IMG_SIZE": [
+      224,
+      224
+    ],
+    "BATCH_SIZE": 32,
+    "EPOCHS": 20,
+    "LR_HEAD": 0.001,
+    "LR_FINE": 1e-05,
+    "FINE_TUNE_LAYERS": 0,
+    "FINE_TUNE_EPOCHS": 10,
+    "THRESHOLD": 0.35,
+    "FLIP_MODE": "label_swap",
+    "SEED": 42,
+    "N_FOLDS": 5,
+    "N_BOOT": 1000,
+    "PRETRAINED_WEIGHTS": "imagenet"
+  },
+  "dataset_audit": {
+    "images_scanned": 76,
+    "images_used": 76,
+    "missing_or_unparseable_xml": 0,
+    "annotated_no_recognised_class": 6,
+    "per_class_image_counts": {
+      "Left Turn Arrow": 38,
+      "Right Turn Arrow": 36,
+      "Stop Line": 47,
+      "Solid White Line": 44,
+      "Double Solid Yellow Line": 55
+    },
+    "ignored_object_names": {
+      "Crosswalk": 146,
+      "Chevron": 49,
+      "Car": 191,
+      "White Dashed Line": 123,
+      "Stright Arrow": 26,
+      "Double Soild White Line": 1,
+      "U Turn Arrow": 3,
+      "Left Merge Arrow": 1
+    },
+    "class_aliases": {
+      "Stopline": "Stop Line",
+      "Stright, Left Arrow": "Left Turn Arrow",
+      "Straight, Left Turn Arrow": "Left Turn Arrow"
+    }
+  },
+  "versions": {
+    "python": "3.11.9",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.4.6",
+    "opencv": "5.0.0",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "final_epoch_metrics": {
+    "auc": 0.7959635853767395,
+    "exact_match_accuracy": 0.2631579041481018,
+    "loss": 0.5633196830749512,
+    "per_label_acc": 0.7684210538864136,
+    "learning_rate": 0.0002500000118743628
+  }
+}
