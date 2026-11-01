@@ -1,24 +1,43 @@
-MIT License
+# Dataset Usage and Licensing
 
-Copyright (c) 2026 Farooq M. Anwar
+## Contents
 
-This license covers author-created source code only. See DATASET_LICENSE.md
-for terms governing data, including imagery and annotations.
+- `data/img/` — 76 aerial-map screenshots (`road1.jpg` through `road76.jpg`).
+- `data/annotations/` — Pascal VOC XML annotations (`road1.xml` through `road76.xml`), corresponding to the images.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The repository also contains separate test and validation materials.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Aerial Imagery
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The 76 screenshots are third-party base imagery from:
+
+- Google
+- Vexcel Imaging US
+- Maxar Technologies
+
+These images are not relicensed by this repository. They remain subject to the applicable copyright and terms of use of their respective providers.
+
+Their inclusion is intended to support reproducibility of the experiments described in `paper/research-1.pdf`.
+
+Do not assume that these images may be redistributed, modified, or commercially reused. Preserve applicable copyright and attribution information.
+
+## Annotations
+
+The Pascal VOC annotation files in `data/annotations/` are author-created and released under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/
+
+This license applies to the annotation files only. It does not apply to the underlying third-party imagery.
+
+## No Blanket Dataset License
+
+There is no single open license covering both the imagery and annotations.
+
+- Imagery remains subject to third-party rights and provider terms.
+- Author-created annotations are released under CC BY 4.0.
+
+Users are responsible for verifying permissions for individual files before reuse or redistribution.
+
+## Takedown
+
+Rights holders who believe their imagery has been included without appropriate permission may contact the repository owner through GitHub Issues to request review and removal.
