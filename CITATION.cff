@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or its annotations in your research, please cite the preprint using the metadata below."
+title: "Constraint-Aware Traffic Intervention Visualization Using Multi-Label Road-Marking Recognition"
+type: software
+version: 1.0.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/KingFarooq/TrafficCongestionWithAI"
+
+authors:
+  - family-names: Anwar
+    given-names: Farooq M.
+
+abstract: >-
+  A research prototype combining multi-label road-marking recognition,
+  survey-based congestion categorization, constraint-filtered intervention
+  ranking, and schematic visualization. The system is a proof of concept
+  and is not a validated traffic-management system.
+
+preferred-citation:
+  type: article
+  title: >-
+    Constraint-Aware Traffic Intervention Visualization Using Multi-Label
+    Road-Marking Recognition: Design, Audit, Correction, and Cross-Validated
+    Evaluation of a Proof-of-Concept System
+  authors:
+    - family-names: Anwar
+      given-names: Farooq M.
+  year: 2026
+  # Add the DOI or arXiv URL after publication.
+  # doi: "10.48550/arXiv.XXXX.XXXXX"
+  # url: "https://arxiv.org/abs/XXXX.XXXXX"
