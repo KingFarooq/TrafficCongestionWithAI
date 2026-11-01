@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Other pictures</folder>
+	<filename>road64.jpg</filename>
+	<path>/home/ubuntu/Pictures/Other pictures/road64.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Stopline</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>31</xmin>
+			<ymin>79</ymin>
+			<xmax>44</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Double Solid Yellow Line</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>1</ymin>
+			<xmax>110</xmax>
+			<ymax>254</ymax>
+		</bndbox>
+	</object>
+</annotation>
