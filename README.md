@@ -6,6 +6,8 @@ Developed between March and July 2025 as an exploration of peak-hour traffic nea
 
 **Project status:** Proof of concept. Not a validated traffic-management or engineering system.
 
+https://doi.org/10.5281/zenodo.24327567
+
 ---
 
 ## Overview
