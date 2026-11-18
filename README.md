@@ -70,7 +70,7 @@ Reported findings include:
 
 These findings do not establish calibrated recognition, congestion reduction, or safe roadway designs.
 
-See [`paper/research-1.pdf`](paper/research-1.pdf) for the full evaluation and discussion.
+See [`paper/research-1.pdf`](paper/research.pdf) for the full evaluation and discussion.
 
 ---
 
