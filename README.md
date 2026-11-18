@@ -2,7 +2,7 @@
 
 A research prototype combining multi-label road-marking recognition, survey-based congestion categorization, constraint-filtered intervention ranking, and schematic visualization.
 
-Developed between March and July 2025 as an exploration of peak-hour traffic near a school campus; revised and evaluated in October 2026. The development archive and revision are documented in the companion preprint at [`paper/research-1.pdf`](paper/research-1.pdf).
+Developed between March and July 2025 as an exploration of peak-hour traffic near a school campus; revised and evaluated in October 2026. The development archive and revision are documented in the companion preprint at [`paper/research-1.pdf`](paper/research.pdf).
 
 **Project status:** Proof of concept. Not a validated traffic-management or engineering system.
 
